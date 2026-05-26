@@ -1,0 +1,82 @@
+name: Build Linux AppImage
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths-ignore:
+      - '**.md'
+
+env:
+  CLOJURE_VERSION: '1.12.4.1618'
+  JAVA_VERSION: '21'
+  NODE_VERSION: '24'
+  BABASHKA_VERSION: '1.12.215'
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10.33.0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: 'pnpm'
+          cache-dependency-path: pnpm-lock.yaml
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: 'zulu'
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - uses: DeLaGuardo/setup-clojure@13.5
+        with:
+          cli: ${{ env.CLOJURE_VERSION }}
+          bb: ${{ env.BABASHKA_VERSION }}
+
+      - name: Cache Clojure deps
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.m2/repository
+            ~/.gitlibs
+          key: ${{ runner.os }}-clojure-${{ hashFiles('deps.edn') }}
+          restore-keys: ${{ runner.os }}-clojure-
+
+      - name: pnpm install
+        run: pnpm install --frozen-lockfile
+
+      - name: Build CLJS + webpack + electron
+        run: pnpm release-electron
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
+
+      - name: Locate build output
+        id: artifact
+        run: |
+          find . -name "*.AppImage" -not -path "*/node_modules/*" 2>/dev/null | head -5
+          APPIMAGE=$(find . -name "*.AppImage" -not -path "*/node_modules/*" 2>/dev/null | head -1)
+          echo "appimage=$APPIMAGE" >> $GITHUB_OUTPUT
+
+      - name: Upload AppImage artifact
+        if: steps.artifact.outputs.appimage != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: logseq-linux-appimage
+          path: ${{ steps.artifact.outputs.appimage }}
+          retention-days: 14
+
+      - name: Upload full build dir if AppImage missing (debug)
+        if: steps.artifact.outputs.appimage == ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-debug-output
+          path: |
+            static/out/
+            static/db-worker-node-output/
+          retention-days: 7
