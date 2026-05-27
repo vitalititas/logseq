@@ -35,22 +35,24 @@ html {
     }
 
     &[data-theme=dark] {
+      /* Asymmetric Intellect palette — site-matched
+         bg #05070a / text #e6f6f3 / accent #32d9cb (cyan) */
       --lx-gray-01: var(--ls-primary-background-color, hsl(var(--background)));
-      --background: 192 100% 11%;
-      --foreground: 0 0% 95%;
-      --accent: 192 80% 10%;
-      --accent-foreground: 255 92% 100%;
-      --primary: 200 97% 37%;
-      --primary-foreground: 255 92% 100%;
-      --ring: 200 97% 37%;
-      --secondary: 203 50% 20%;
-      --secondary-foreground: 0 0% 98%;
-      --muted: 192 100% 13%;
-      --border: 192 100% 14%;
-      --card: 192 100% 10%;
-      --card-foreground: 0 0% 95%;
-      --popover: 192 100% 11%;
-      --input: 203 35% 25%;
+      --background: 220 33% 3%;
+      --foreground: 170 50% 93%;
+      --accent: 174 69% 53%;
+      --accent-foreground: 220 33% 3%;
+      --primary: 174 69% 53%;
+      --primary-foreground: 220 33% 3%;
+      --ring: 174 69% 53%;
+      --secondary: 174 30% 15%;
+      --secondary-foreground: 170 50% 93%;
+      --muted: 220 33% 6%;
+      --border: 174 30% 20%;
+      --card: 220 33% 5%;
+      --card-foreground: 170 50% 93%;
+      --popover: 220 33% 4%;
+      --input: 174 30% 18%;
     }
   }
 
