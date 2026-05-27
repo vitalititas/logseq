@@ -52,7 +52,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build CLJS + webpack + electron
-        run: pnpm release-electron
+        run: |
+          pnpm gulp:build
+          pnpm cljs:release-electron
+          pnpm db-worker-node:bundle
+          pnpm webpack-app-build
+          pnpm gulp electronMaker
         env:
           NODE_OPTIONS: --max-old-space-size=8192
 
