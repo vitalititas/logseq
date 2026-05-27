@@ -92,7 +92,7 @@ DROP TRIGGER IF EXISTS blocks_au;
   (str "(" (->> (map (fn [id] (str "'" id "'")) ids)
                 (string/join ", ")) ")"))
 
-(def ^:private upsert-blocks-batch-size 2000)
+(def ^:private upsert-blocks-batch-size 6000)
 
 (def ^:private upsert-blocks-sql
   (memoize

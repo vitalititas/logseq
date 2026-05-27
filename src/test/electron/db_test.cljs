@@ -350,7 +350,7 @@
                     _ (electron-db/sync-auto-backup-repo! 2 nil)]
               (is (= 1 (count @set-interval-calls)))
               (is (= [timer-id] @clear-interval-calls))
-              (is (= [3600000] (mapv second @set-interval-calls)))
+              (is (= [60000] (mapv second @set-interval-calls)))
               (is (= [["logseq_db_demo" 1]] @backup-calls))))
           (p/catch (fn [e]
                      (is false (str "unexpected error: " e))))

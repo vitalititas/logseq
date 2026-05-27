@@ -68,7 +68,7 @@
    :block/page {:db/valueType :db.type/ref
                 :db/index true}
    ;; reference blocks
-   :block/refs {:db/valueType :db.type/ref
+    :block/refs {:db/valueType :db.type/ref :db/index true
                 :db/cardinality :db.cardinality/many}
    :block/tags {:db/valueType :db.type/ref
                 :db/cardinality :db.cardinality/many}

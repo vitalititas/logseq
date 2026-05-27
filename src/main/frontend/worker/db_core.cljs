@@ -72,9 +72,9 @@
 (def ^:private recycle-gc-kv :logseq.kv/recycle-last-gc-at)
 
 (def ^:private search-index-build-batch-size 200)
-(def ^:private search-index-build-time-budget-ms 8)
+(def ^:private search-index-build-time-budget-ms 16)
 (def ^:private search-index-build-idle-status-ttl-ms 2000)
-(def ^:private search-index-build-pause-ms 300)
+(def ^:private search-index-build-pause-ms 50)
 (defonce ^:private *search-index-build-ids (atom {}))
 (defonce ^:private *client-ops-cleanup-timers (atom {}))
 (def ^:private client-ops-cleanup-interval-ms (* 3 60 60 1000))

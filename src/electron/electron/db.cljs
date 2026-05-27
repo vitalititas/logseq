@@ -13,13 +13,15 @@
             [promesa.core :as p]))
 
 (def ^:private backup-interval-ms
-  (* 60 60 1000))
+  (* 1 60 1000))
 
 (def ^:private automatic-backup-keep-versions 12)
 
 (defonce *auto-backup
   (atom {:window->repo {}
          :interval-id nil}))
+
+(defonce ^:private *last-backup-run (atom 0))
 
 (defn ensure-graphs-dir!
   []
@@ -116,14 +118,20 @@
 
 (defn run-auto-backup!
   []
-  (p/all
-   (for [[repo window-id] (active-repo-window-ids)]
-     (-> (backup-db-via-worker! repo window-id {})
-         (p/catch (fn [error]
-                    (log/warn :electron/auto-db-backup-failed
-                              {:repo repo
-                               :error error})
-                    nil))))))
+  (let [now (js/Date.now)
+        last @*last-backup-run]
+    (if (> (- now last) 5000)
+      (do
+        (reset! *last-backup-run now)
+        (p/all
+         (for [[repo window-id] (active-repo-window-ids)]
+           (-> (backup-db-via-worker! repo window-id {})
+               (p/catch (fn [error]
+                          (log/warn :electron/auto-db-backup-failed
+                                    {:repo repo
+                                     :error error})
+                          nil))))))
+      nil)))
 
 (defn- reconcile-auto-backup-timer!
   []
@@ -157,5 +165,21 @@
   []
   (when-let [interval-id (:interval-id @*auto-backup)]
     (js/clearInterval interval-id))
+  (reset! *last-backup-run 0)
   (reset! *auto-backup {:window->repo {}
                         :interval-id nil}))
+
+;; GAP2 fix: attach focus listener using Electron main-process app event so that returning
+;; to the app triggers an immediate backup/refresh (same fn the 60s timer uses). Guard
+;; inside run-auto-backup! prevents double execution if focus and interval coincide
+;; within 5s. Uses runtime require so that `require` of this ns in node-based unit tests
+;; (no 'electron' module) succeeds without error.
+(try
+  (let [^js electron (js/require "electron")
+        ^js app (.-app electron)]
+    (.on app "browser-window-focus"
+         (fn [_event _win]
+           (run-auto-backup!))))
+  (catch :default _e
+    ;; non-Electron env (tests etc.): no-op, listener not attached
+    nil))
