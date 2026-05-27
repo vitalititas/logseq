@@ -1,6 +1,6 @@
 {
-  "name": "Logseq",
-  "productName": "Logseq",
+  "name": "Felicitas-Sapientiae",
+  "productName": "Felicitas Sapientiae",
   "version": "2.0.1",
   "packageManager": "pnpm@10.33.0",
   "main": "electron.js",
