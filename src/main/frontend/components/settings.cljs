@@ -62,7 +62,7 @@
                (ui/button
                 (t :settings.general/check-for-updates)
                 :class "text-sm mr-1"
-                :href "https://github.com/logseq/logseq/releases")
+                :href "https://github.com/vitalititas/logseq/releases")
 
                (mobile-util/native-ios?)
                (ui/button
@@ -88,7 +88,7 @@
                                             [:span (t :settings.general/current-revision-label)]
                                             [:a {:target "_blank"
                                                  :style {:margin-inline-start "0.25rem"}
-                                                 :href (str "https://github.com/logseq/logseq/commit/" revision)}
+                                                 :href (str "https://github.com/vitalititas/logseq/commit/" revision)}
                                              revision]]
                                            :info
                                            false))}
@@ -96,7 +96,7 @@
 
        [:a.text-sm.fade-link.underline.inline
         {:target "_blank"
-         :href "https://docs.logseq.com/#/page/changelog"}
+         :href "https://github.com/vitalititas/logseq/releases"}
         (t :settings.general/changelog)]]]
 
      (when-not (string/blank? type)
@@ -137,7 +137,7 @@
                 [:a.link.inline-flex.items-center.gap-1
                  {:on-click
                   (fn [e]
-                    (js/window.apis.openExternal "https://github.com/logseq/logseq/releases")
+                    (js/window.apis.openExternal "https://github.com/vitalititas/logseq/releases")
                     (util/stop e))}
                  svg/external-link
                  (t :settings.general/release-channel)]]
@@ -155,11 +155,8 @@
     [:p.text-sm
      (t :settings.editor/preferred-outdenting-tip)
      [:a.text-sm
-      {:target "_blank" :href "https://discuss.logseq.com/t/whats-your-preferred-outdent-behavior-the-direct-one-or-the-logical-one/978"}
-      (t :settings.editor/preferred-outdenting-tip-more)]]
-    [:img {:src    "https://discuss.logseq.com/uploads/default/original/1X/e8ea82f63a5e01f6d21b5da827927f538f3277b9.gif"
-           :width  500
-           :height 500}]]])
+      {:target "_blank" :href "https://github.com/vitalititas/logseq"}
+      (t :settings.editor/preferred-outdenting-tip-more)]]]])
 
 (rum/defc auto-expand-hint
   []
@@ -651,7 +648,7 @@
                 [:span.pr-1
                  (if (seq current-url)
                    current-url
-                   "Logseq Sync")]
+                   "Asymmetric Sync")]
                 (ui/icon "edit")]
                :class "text-sm"
                :on-click #(state/pub-event! [:go/sync-server-settings]))))
@@ -1047,7 +1044,7 @@
            [:div {:class "w-1/2 text-lg"}
             (interpolate-rich-text-node
              (t :account/discover-sync-desc)
-             [[:strong {:class "text-white/80"} "Logseq Sync"]])]
+             [[:strong {:class "text-white/80"} "Asymmetric Sync"]])]
            [:div {:class "w-1/2 bg-gradient-to-r from-white/10 to-transparent p-3 rounded-lg flex items-center gap-2 px-5 ml-5"}
             [:div.w-3.h-3.rounded-full.bg-green-500]
             (t :account/synced-status)]]

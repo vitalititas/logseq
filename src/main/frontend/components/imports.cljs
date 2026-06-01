@@ -1,5 +1,5 @@
 (ns frontend.components.imports
-  "Import data into Logseq."
+  "Import data into Asymmetric AI."
   (:require ["path" :as node-path]
             [cljs-time.core :as t]
             [cljs.pprint :as pprint]

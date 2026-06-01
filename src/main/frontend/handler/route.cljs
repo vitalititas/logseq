@@ -132,7 +132,7 @@
   [name path-params]
   (case name
     :home
-    "Logseq"
+    "Asymmetric AI"
     :graphs
     (t :mobile.tab/graphs)
     :graph
@@ -168,7 +168,7 @@
                                block-name)))]
       (or block-name'
           block-title
-          "Logseq"))
+          "Asymmetric AI"))
     :tag
     (str "#"  (:name path-params))
     :diff
@@ -177,7 +177,7 @@
     (t :nav/settings)
     :import
     (t :import/title)
-    "Logseq"))
+    "Asymmetric AI"))
 
 (defn update-page-title!
   [route]

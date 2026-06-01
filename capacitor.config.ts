@@ -6,7 +6,7 @@ const version = fs.readFileSync('static/package.json', 'utf8').match(/"version":
 
 const config: CapacitorConfig = {
   appId: 'com.logseq.app',
-  appName: 'Logseq',
+  appName: 'Asymmetric AI',
   webDir: 'static/mobile',
   loggingBehavior: 'debug',
   server: {
@@ -14,7 +14,7 @@ const config: CapacitorConfig = {
   },
   plugins: {
     App: {
-      // Logseq routes back presses through MainActivity -> JS (window.LogseqNative.onNativePop).
+      // Asymmetric AI routes back presses through MainActivity -> JS (window.LogseqNative.onNativePop).
       // Disable @capacitor/app's built-in OnBackPressedCallback so it doesn't intercept the
       // first edge-back gesture by calling webView.goBack() (which causes a flash and swallows
       // the event before our handler runs). See android/app/.../MainActivity.java.
@@ -50,11 +50,11 @@ const config: CapacitorConfig = {
     }
   },
   android: {
-    appendUserAgent: `Logseq/${version} (Android)`,
+    appendUserAgent: `AsymmetricAI/${version} (Android)`,
   },
   ios: {
     scheme: 'Logseq',
-    appendUserAgent: `Logseq/${version} (iOS)`,
+    appendUserAgent: `AsymmetricAI/${version} (iOS)`,
   }
 }
 

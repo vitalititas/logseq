@@ -885,9 +885,9 @@
        (interpolate-rich-text-node
          (t :plugin/report-modal-desc)
          [[:a.hover:underline
-           {:href (str "mailto://support@logseq.com?subject=Report plugin from Logseq Marketplace"
+           {:href (str "mailto://security@asymmetricintellect.com?subject=Report plugin from Asymmetric AI Marketplace"
                        (when pid (str " (#" pid ")")))}
-           "support@logseq.com"]])]])))
+           "security@asymmetricintellect.com"]])]])))
 
 (defn parse-user-md-content
   [content {:keys [url]}]

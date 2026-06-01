@@ -1066,20 +1066,20 @@ body .markdown-body
 .highlight .vi{color:teal}
 .highlight .il{color:#009999}
 .highlight .gc{color:#999;background-color:#EAF2F5}
-</style><title>http_apis</title></head><body><article class="markdown-body"><h1 id="server-apis-for-logseq">Server APIs for Logseq<a class="headerlink" href="#server-apis-for-logseq" title="Permanent link"></a></h1>
-  <p>Logseq HTTP server is running at <code>http://${HOST}:${PORT}</code>.</p>
+</style><title>http_apis</title></head><body><article class="markdown-body"><h1 id="server-apis-for-logseq">Server APIs for Asymmetric AI<a class="headerlink" href="#server-apis-for-logseq" title="Permanent link"></a></h1>
+  <p>Asymmetric AI HTTP server is running at <code>http://${HOST}:${PORT}</code>.</p>
   <h2 id="available-apis">Available API<a class="headerlink" href="#available-apis" title="Permanent link"></a></h2>
   <blockquote>
-    <p>🔐 All API requests must provide a valid token for data security purposes by providing the <code>Authorization</code> field in the header. Tokens can be configured in Logseq.</p>
+    <p>🔐 All API requests must provide a valid token for data security purposes by providing the <code>Authorization</code> field in the header. Tokens can be configured in Asymmetric AI.</p>
   </blockquote>
   <h3 id="post-api">[POST] <code>/api</code><a class="headerlink" href="#post-api" title="Permanent link"></a></h3>
-  <p>Invoke any APs that's provided by Logseq plugin SDK.</p>
+  <p>Invoke APIs provided by the compatible plugin SDK.</p>
   <ul>
     <li>
       <h4 id="request-body-content-type-applicationjson">Request Body (<code>Content-Type: application/json</code>)<a class="headerlink" href="#request-body-content-type-applicationjson" title="Permanent link"></a></h4>
       <ul>
         <li><code>method</code> {string} [required] pattern string as <code>logseq.Editor.getCurrentBlock</code>
-          You can find more APIs from <a href="https://plugins-doc.logseq.com">https://plugins-doc.logseq.com</a></li>
+          The compatible plugin SDK keeps the existing method namespace for extension support.</li>
         <li><code>args</code> {array} [optional] arguments list for method</li>
       </ul>
     </li>
@@ -1105,7 +1105,7 @@ body .markdown-body
 <span class="p p-Indicator">{</span>
   <span class="s">&quot;method&quot;</span><span class="p p-Indicator">:</span> <span class="s">&quot;logseq.UI.showMsg&quot;</span><span class="p p-Indicator">,</span>
   <span class="s">&quot;args&quot;</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[</span>
-    <span class="s">&quot;Hello</span><span class="nv"> </span><span class="s">Logseq</span><span class="nv"> </span><span class="s">:)&quot;</span>
+    <span class="s">&quot;Hello</span><span class="nv"> </span><span class="s">Asymmetric AI</span><span class="nv"> </span><span class="s">:)&quot;</span>
   <span class="p p-Indicator">]</span>
 <span class="p p-Indicator">}</span>
 </pre></div>
@@ -1115,7 +1115,6 @@ body .markdown-body
   <h2 id="helps">Helps<a class="headerlink" href="#helps" title="Permanent link"></a></h2>
   <ul>
     <li>Discord community <a href="https://discord.com/invite/KpN4eHY">https://discord.com/invite/KpN4eHY</a></li>
-    <li>Logseq forum <a href="https://discuss.logseq.com/c/questions-and-help/8">https://discuss.logseq.com/c/questions-and-help/8</a></li>
-    <li>Plugin docs <a href="https://plugins-doc.logseq.com">https://plugins-doc.logseq.com</a></li>
-    <li>Plugin SDK <a href="https://www.npmjs.com/package/@logseq/libs">https://www.npmjs.com/package/@logseq/libs</a></li>
+    <li>Project repository <a href="https://github.com/vitalititas/logseq">https://github.com/vitalititas/logseq</a></li>
+    <li>Plugin compatibility: existing plugin SDK namespaces are preserved for extension support.</li>
   </ul></article></body></html>

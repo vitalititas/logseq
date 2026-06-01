@@ -1,5 +1,5 @@
 (ns frontend.components.block.macros
-  "Logseq macros that render and evaluate in blocks"
+  "Compatible macros that render and evaluate in blocks"
   (:require [clojure.walk :as walk]
             [datascript.core :as d]
             [frontend.db.conn :as db-conn]

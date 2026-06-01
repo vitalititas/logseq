@@ -1,13 +1,13 @@
 {
-  "name": "Felicitas-Sapientiae",
-  "productName": "Felicitas Sapientiae",
+  "name": "Asymmetric-AI",
+  "productName": "Asymmetric AI",
   "version": "2.0.1",
   "packageManager": "pnpm@10.33.0",
   "main": "electron.js",
-  "author": "Logseq",
+  "author": "Asymmetric AI",
   "license": "AGPL-3.0",
   "description": "A privacy-first, open-source platform for knowledge management and collaboration.",
-  "repository": "https://github.com/logseq/logseq",
+  "repository": "https://github.com/vitalititas/logseq",
   "scripts": {
     "electron:dev": "electron .",
     "electron:debug": "electron --inspect=9229 .",

@@ -49,7 +49,7 @@
              :latex "$$E = mc^2$$"
              :code (str "`" (t :format/code) "`")
              :pre "```clojure\n  (println \"Hello world!\")\n```"
-             :img "![image](https://asset.logseq.com/static/img/logo.png)"}
+             :img "![image](/static/img/logo.png)"}
 
         rendered {:italics [:i (t :format/italics)]
                   :bold [:b (t :format/bold)]
@@ -61,7 +61,7 @@
                   :code [:code (t :format/code)]
                   :pre (highlight/highlight "help-highlight" {:data-lang "clojure"} "(println \"Hello world!\")")
                   :img [:img {:style {:float "right" :width 32 :height 32}
-                              :src "https://asset.logseq.com/static/img/logo.png"
+                              :src "/static/img/logo.png"
                               :alt (t :ui/image)}]}]
 
     [:table.classic-table.w-full

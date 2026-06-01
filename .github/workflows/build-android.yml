@@ -122,7 +122,7 @@ jobs:
         # if: ${{ github.repository == 'logseq/logseq' && (inputs.build-target == 'beta' || github.event.inputs.build-target == 'beta') }}
         run: |
           curl -sL https://sentry.io/get-cli/ | SENTRY_CLI_VERSION=2.58.4 bash
-          release_name="logseq-android@${{ steps.ref.outputs.version }}"
+          release_name="asymmetric-ai-android@${{ steps.ref.outputs.version }}"
           sentry-cli releases new "${release_name}"
           sentry-cli releases files "${release_name}" upload-sourcemaps --ext map --ext js ./static/js --url-prefix '~/static/js'
           sentry-cli releases finalize "${release_name}"
@@ -157,10 +157,10 @@ jobs:
       - name: Rename Apk
         run: |
           mkdir builds
-          mv android/app-signed.apk ./builds/Logseq-android-${{ steps.ref.outputs.version }}.apk
+          mv android/app-signed.apk ./builds/Asymmetric-AI-android-${{ steps.ref.outputs.version }}.apk
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: logseq-android-builds
+          name: asymmetric-ai-android-builds
           path: builds

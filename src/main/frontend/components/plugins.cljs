@@ -138,7 +138,7 @@
              :on-click #(do (js/LSPluginCore.selectTheme (bean/->js opt))
                             (shui/dialog-close!))}
             [:div.flex.items-center.text-xs
-             [:div.opacity-60 (str (or (:name plg) "Logseq") " •")]
+             [:div.opacity-60 (str (or (:name plg) "Asymmetric AI") " •")]
              [:div.name.ml-1 (:name opt)]]
             (when (or group-first? current-selected?)
               [:div.flex.items-center
@@ -511,8 +511,7 @@
                          (assoc opts :test (util/trim-safe (util/evalue %))))
           :value       (:test opts)}]
         [:datalist#proxy-test-url-datalist
-         [:option "https://api.logseq.com/logseq/version"]
-         [:option "https://logseq-connectivity-testing-prod.s3.us-east-1.amazonaws.com/logseq-connectivity-testing"]
+         [:option "https://github.com/vitalititas/logseq"]
          [:option "https://www.google.com"]
          [:option "https://s3.amazonaws.com"]
          [:option "https://clients3.google.com/generate_204"]]]

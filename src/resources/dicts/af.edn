@@ -1,11 +1,11 @@
 {
  :account/authentication "Verifikasie"
- :account/benefits-desc "Met 'n Logseq-rekening kan jy toegang kry tot wolkgebaseerde dienste soos Logseq Sync en alfa/beta-kenmerke."
+ :account/benefits-desc "Met 'n Asymmetric AI-rekening kan jy toegang kry tot wolkgebaseerde dienste soos Asymmetric AI Sync en alfa/beta-kenmerke."
  :account/billing "Fakturering"
  :account/billing-expired-on-label "Pro-plan het verval op: {1}"
  :account/billing-expires-on-label "Pro-plan verval op: {1}"
  :account/billing-next-date-label "Volgende faktureringsdatum: {1}"
- :account/core-features "Toegang tot kern Logseq-kenmerke"
+ :account/core-features "Toegang tot kern Asymmetric AI-kenmerke"
  :account/current-plan "Huidige plan"
  :account/delete-account "Skrap rekening"
  :account/discover-sync-desc "Ontdek die krag van {1}"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "Sinchroniseer bates tot 100MB per lêer"
  :account/synced-status "Gesinchroniseer"
  :account/unlimited-unsynced-graphs "Onbeperkte ongesinchroniseerde grafieke"
- :account/upcoming-cloud-features "Komende wolkgebaseerde kenmerke, insluitend Logseq Publish"
+ :account/upcoming-cloud-features "Komende wolkgebaseerde kenmerke, insluitend Asymmetric AI Publish"
  :account/upgrade-plan "Opgradeer plan"
  :account/username "Gebruikersnaam"
 
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "Laai lêertipes soos beeld, PDF, DOCX, ens. op"
  :editor.slash/yesterday-desc "Voeg die datum van gister in"
 
- :electron/about "Oor Logseq"
+ :electron/about "Oor Asymmetric AI"
  :electron/add-to-dictionary "Aan woordenboek voeg by"
  :electron/block-not-exist "Kon skakel nie oopmaak nie. Blok-ID `{1}` bestaan nie in die grafiek nie."
  :electron/cancel "Kanselleer"
@@ -669,7 +669,7 @@
  :graph/create-new "Skep 'n nuwe grafiek"
  :graph/creating "Grafiek word geskep"
  :graph/delete-local-action "Verwyder plaaslike grafiek"
- :graph/delete-local-confirm-desc "Is u seker dat u die grafiek \"{1}\" permanent uit Logseq wil verwyder?"
+ :graph/delete-local-confirm-desc "Is u seker dat u die grafiek \"{1}\" permanent uit Asymmetric AI wil verwyder?"
  :graph/delete-server-action "Verwyder van server"
  :graph/delete-server-confirm-desc "Is u seker dat u die grafiek \"{1}\" permanent vanaf ons bediener wil verwyder?"
  :graph/delete-warning "⚠️ Let daarop dat ons hierdie grafiek nie kan herwin nadat dit verwyder is nie. Maak seker dat u 'n rugsteun het voordat u dit verwyder."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "Grafiek uit synchronisatie verwijderd"
  :graph/shared-graphs "Gedeelde grafieke"
  :graph/updated-switching "Grafiek bijgewerkt. Schakelen..."
- :graph/use-sync-beta "Gebruik Logseq Sync (beta-toetsing)"
- :graph/use-sync-label "Gebruik Logseq Sync?"
+ :graph/use-sync-beta "Gebruik Asymmetric AI Sync (beta-toetsing)"
+ :graph/use-sync-label "Gebruik Asymmetric AI Sync?"
 
  :graph.diagnostics/checksum-failed-error "Kon nie grafiekkontrolesomdiagnostiek bereken nie."
  :graph.diagnostics/checksum-recomputed-success "Kontrolesom herbereken. Herbereken: {1}, plaaslik: {2}, afgeleë: {3}. {4}.edn is afgelaai met {5} blokke en kontrolesom-eienskappe {6}."
@@ -743,10 +743,10 @@
  :header/quit-highlight-recent-blocks "Staak uitlig van onlangse blokke"
  :header/toggle-left-sidebar "Wissel linker sypaneel"
 
- :help/about "Oor Logseq"
+ :help/about "Oor Asymmetric AI"
  :help/about-title "Oor"
  :help/ask-community "Vra die gemeenskap"
- :help/awesome-logseq "Awesome Logseq"
+ :help/awesome-logseq "Awesome Asymmetric AI"
  :help/block-reference "Blok verwysing"
  :help/blog "Blog"
  :help/bug "Rapporteer fout op GitHub"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "Grafieknaam mag nie leeg zijn."
  :import/extract-inline-code-snippets "Inline codefragmenten extraheren als subblokken"
  :import/file-finished "Import voltooid!"
- :import/file-to-db-desc "Voer 'n lêergebaseerde Logseq-grafiekgids in na 'n nuwe DB-grafiek"
+ :import/file-to-db-desc "Voer 'n lêergebaseerde Asymmetric AI-grafiekgids in na 'n nuwe DB-grafiek"
  :import/file-to-db-title "Lêer na DB-grafiek"
  :import/graph-name-conflict "Er bestaat reeds 'n grafiek met deze naam. Kies 'n andere naam!"
  :import/graph-name-placeholder "Grafieknaam"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} ongeldige blokken gedetecteerd. Interactie werkt mogelijk niet. Details in die JavaScript-console."
  :import/invalid-edn-file "Het opgegeven EDN-lêer is ongeldig. Corrigeer die en probeer opnieuw."
  :import/loading "Voer in"
- :import/logseq-config-missing "Importfout: Logseq-grafiek bevat geen 'logseq/config.edn' lêer."
+ :import/logseq-config-missing "Importfout: Asymmetric AI-grafiek bevat geen 'logseq/config.edn' lêer."
  :import/new-graph-name "Nuwe grafieknaam"
  :import/notes "Voer notas in"
  :import/org-files-imported "{1} Org-lêers geïmporteerd als Markdown. Org-ondersteuning wordt later toegevoegd."
@@ -914,8 +914,8 @@
  :library/add-pages "Voeg bladsye by"
  :library/title "Biblioteek"
 
- :mobile/camera-access-denied "Kamera-toegang is geweier. Aktiveer dit in Instellings > Logseq."
- :mobile/microphone-access-denied "Mikrofoon-toegang is geweier. Aktiveer dit in Instellings > Logseq."
+ :mobile/camera-access-denied "Kamera-toegang is geweier. Aktiveer dit in Instellings > Asymmetric AI."
+ :mobile/microphone-access-denied "Mikrofoon-toegang is geweier. Aktiveer dit in Instellings > Asymmetric AI."
 
  :mobile.header/actions "Aksies"
  :mobile.header/create-graph "Grafiek aanmaken"
@@ -1005,7 +1005,7 @@
  :onboarding.import-option/title "Data-invoer"
 
  :onboarding.setup/desc "Werkspasie vir jou kennis"
- :onboarding.setup/title (fn [] ["Welkom by " [:strong "Logseq!"]])
+ :onboarding.setup/title (fn [] ["Welkom by " [:strong "Asymmetric AI!"]])
 
  :page/add-to-favorites "Voeg by gunstelinge"
  :page/added-tag-to-node "Het merker \"{1}\" by \"{2}\" gevoeg"
@@ -1024,7 +1024,7 @@
  :page/go-back-home "Gaan terug huis toe"
  :page/hide-properties "Versteek eienskappe"
  :page/local-storage "plaaslike berging"
- :page/logseq-is-having-a-problem "Logseq ondervind 'n probleem"
+ :page/logseq-is-having-a-problem "Asymmetric AI ondervind 'n probleem"
  :page/make-private "Maak privaat"
  :page/make-public "Maak publiek"
  :page/moved-to-recycle "Nodus is na Herwinning geskuif"
@@ -1042,7 +1042,7 @@
  :page/relaunch-desc "Sluit en heropen die toep."
  :page/scheduled-and-deadline "Geskeduleerd en spertyd"
  :page/search-index "soekindeks"
- :page/send-db-for-debugging "Jy kan dit na help@logseq.com stuur vir ontfouting."
+ :page/send-db-for-debugging "Jy kan dit na security@asymmetricintellect.com stuur vir ontfouting."
  :page/something-went-wrong "Iets het skeefgeloop"
  :page/step "Stap {1}"
  :page/the-app "die toep"
@@ -1154,7 +1154,7 @@
  :plugin/no-settings-schema "Geen instellingskema nie!"
  :plugin/not-installed "Nie geïnstalleer nie"
  :plugin/open-logs "Bekyk logboeke"
- :plugin/open-logseq-dir "Logseq-map maak oop"
+ :plugin/open-logseq-dir "Asymmetric AI-map maak oop"
  :plugin/open-package "Maak pakket oop"
  :plugin/open-preferences "Voorkeuren maak oop"
  :plugin/open-settings "Maak instellings oop"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "Herlaai lyste"
  :plugin/reload "Herlaai"
  :plugin/remote-error "Externe fout: {1}"
- :plugin/report-modal-desc "As 'n inpropper nie beskikbaar is of u dink dit bevat skadelike kode, stuur asseblief 'n e-pos aan {1}. Noem die naam van die inpropper en die URL van sy GitHub-depository. Die Logseq-span reageer gewoonlik binne 'n besigheidsdag."
+ :plugin/report-modal-desc "As 'n inpropper nie beskikbaar is of u dink dit bevat skadelike kode, stuur asseblief 'n e-pos aan {1}. Noem die naam van die inpropper en die URL van sy GitHub-depository. Die Asymmetric AI-span reageer gewoonlik binne 'n besigheidsdag."
  :plugin/report-security "Beveiligingsprobleem melden"
  :plugin/restart "Herbegin"
  :plugin/search-plugin "Plug-in soek"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "URL's ondersteun beide GitHub-depository's en plaaslike ontwikkelingsbedieners. (Vir voorbeelde: {1}, {2})"
  :plugin.install-from-web-url/theme-label "tema"
 
- :plugin.package-config/detach-desc "Deur dit te verwyder, word die plugin net van Logseq losgekoppel en die bronmap onaangeraak gelaat."
+ :plugin.package-config/detach-desc "Deur dit te verwyder, word die plugin net van Asymmetric AI losgekoppel en die bronmap onaangeraak gelaat."
  :plugin.package-config/parse-error "Kon nie die plugin-pakketkonfigurasie ontleed nie."
  :plugin.package-config/remove-error "Kon nie die beskadigde plugin verwyder nie."
  :plugin.package-config/remove-external-success "Die beskadigde plugin is uit die pluginlys verwyder."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "Verlaat kodemodus"
  :plugin.settings/title "Uitbreidingsinstellings"
 
- :plugin.themes/default-desc "Logseq se verstektema ({1})."
+ :plugin.themes/default-desc "Asymmetric AI se verstektema ({1})."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "Temas ({1})"
  :plugin.themes/light-and-dark "ligte & donker temas"
@@ -1562,7 +1562,7 @@
  :settings.advanced/auto-chmod-desc "Lêersmachtigingen outomaties instellen"
  :settings.advanced/auto-updater "Outomatiese opdaterings"
  :settings.advanced/developer-mode "Ontwikkelaar modus"
- :settings.advanced/developer-mode-desc "Ontwikkelaarmodus help bydraers en ontwikkelaars van uitbreidings om hul integrasie met Logseq doeltreffender te toets."
+ :settings.advanced/developer-mode-desc "Ontwikkelaarmodus help bydraers en ontwikkelaars van uitbreidings om hul integrasie met Asymmetric AI doeltreffender te toets."
  :settings.advanced/disable-sentry "Deaktiveer Sentry"
  :settings.advanced/disable-sentry-desc "Deaktiveer ongelukrapportering"
  :settings.advanced/network-proxy "Netwerkvolmag"
@@ -1597,7 +1597,7 @@
 
  :settings.general/accent-color "Aksentkleur"
  :settings.general/accent-color-alert "Kleurwaarskuwing"
- :settings.general/accent-color-logseq "Logseq klassieke kleur"
+ :settings.general/accent-color-logseq "Asymmetric AI klassieke kleur"
  :settings.general/accent-color-none-desc "Kanselleer aksentkleur. Dit is tans in betafase en word hoofsaaklik vir versoenbaarheid met pasgemaakte temas gebruik."
  :settings.general/changelog "Veranderingslog"
  :settings.general/check-for-updates "Kyk vir opdaterings"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "Lig"
  :settings.general/theme-system "Stelsel"
 
- :settings.sync-server/clear-success "Sinkronisasiebediener-URL uitgevee. Gebruik amptelike Logseq Sync."
+ :settings.sync-server/clear-success "Sinkronisasiebediener-URL uitgevee. Gebruik amptelike Asymmetric AI Sync."
  :settings.sync-server/reset "Verstek herstellen"
  :settings.sync-server/save-success "Sinkronisasiebediener-URL gestoor."
  :settings.sync-server/url "Sinkronisasiebediener-URL"
- :settings.sync-server/url-desc "Stel 'n pasgemaakte HTTPS-sinkronisasiebediener-URL vir self-gehoste sinkronisasie. Jou Logseq-verifikasietokens sal na hierdie bediener gestuur word, gebruik dus slegs 'n betroubare URL. Laat dit leeg om die amptelike Logseq Sync te gebruik."
+ :settings.sync-server/url-desc "Stel 'n pasgemaakte HTTPS-sinkronisasiebediener-URL vir self-gehoste sinkronisasie. Jou Asymmetric AI-verifikasietokens sal na hierdie bediener gestuur word, gebruik dus slegs 'n betroubare URL. Laat dit leeg om die amptelike Asymmetric AI Sync te gebruik."
  :settings.sync-server/url-invalid-error "URL moet met https:// of http:// begin"
 
  :shell/input-command-title "Voer opdrag in"
@@ -1692,7 +1692,7 @@
  :sync/uploading "Laai op..."
  :sync/user-doesnt-exist-yet "Gebruiker bestaat nog niet"
 
- :theme/logseq-default "Logseq-verstektema"
+ :theme/logseq-default "Asymmetric AI-verstektema"
  :theme/switch-to "Skakel oor na die {1} tema"
 
  :ui/all-done "Alles klaar"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "YouTube-tydstewels is nog nie op mobiel beskikbaar nie."
 
  :zotero/attachments "Aanhangsels"
- :zotero/imported-file-warning "Hierdie is 'n ingevoerde Zotero-lêer, stel Zotero-datagids om die lêer in Logseq oop te maak."
- :zotero/linked-file-warning "Hierdie is 'n gekoppelde Zotero-lêer, stel basisgids vir Zotero-gekoppelde aanhangsels om die lêer in Logseq oop te maak."
+ :zotero/imported-file-warning "Hierdie is 'n ingevoerde Zotero-lêer, stel Zotero-datagids om die lêer in Asymmetric AI oop te maak."
+ :zotero/linked-file-warning "Hierdie is 'n gekoppelde Zotero-lêer, stel basisgids vir Zotero-gekoppelde aanhangsels om die lêer in Asymmetric AI oop te maak."
  :zotero/notes "Aantekeninge"
 }

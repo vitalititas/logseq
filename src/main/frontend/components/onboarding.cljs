@@ -16,27 +16,27 @@
                         [:div.flex-row.inline-flex.items-center
                          [:span.mr-1 (t :help.shortcuts/label)]
                          (ui/icon "command" {:style {:font-size 20}})]]]
-                      [(t :help/docs) "https://docs.logseq.com/"]
-                      [(t :help/start) "https://docs.logseq.com/#/page/tutorial"]
-                      ["FAQ" "https://docs.logseq.com/#/page/faq"]]}
+                      [(t :help/docs) "https://github.com/vitalititas/logseq"]
+                      [(t :help/start) "https://github.com/vitalititas/logseq"]
+                      ["FAQ" "https://github.com/vitalititas/logseq/issues"]]}
 
           {:title (t :help/community-title)
-           :children [[(t :help/awesome-logseq) "https://github.com/logseq/awesome-logseq"]
-                      [(t :help/blog) "https://blog.logseq.com"]
-                      [discourse-with-icon "https://discuss.logseq.com"]]}
+           :children [[(t :help/awesome-logseq) "https://github.com/vitalititas/logseq"]
+                      [(t :help/blog) "https://github.com/vitalititas/logseq"]
+                      [discourse-with-icon "https://github.com/vitalititas/logseq/discussions"]]}
 
           {:title (t :help/development-title)
-           :children [[(t :help/roadmap) "https://discuss.logseq.com/t/logseq-product-roadmap/34267"]
-                      [(t :help/bug) "https://github.com/logseq/logseq/issues/new?labels=from:in-app&template=bug_report.yaml"]
-                      [(t :help/feature) "https://discuss.logseq.com/c/feedback/feature-requests/"]
-                      [(t :help/changelog) "https://docs.logseq.com/#/page/changelog"]]}
+           :children [[(t :help/roadmap) "https://github.com/vitalititas/logseq/projects"]
+                      [(t :help/bug) "https://github.com/vitalititas/logseq/issues/new"]
+                      [(t :help/feature) "https://github.com/vitalititas/logseq/issues/new"]
+                      [(t :help/changelog) "https://github.com/vitalititas/logseq/releases"]]}
 
           {:title (t :help/about-title)
-           :children [[(t :help/about) "https://blog.logseq.com/about/"]]}
+           :children [[(t :help/about) "https://github.com/vitalititas/logseq"]]}
 
           {:title (t :help/terms-title)
-           :children [[(t :help/privacy) "https://blog.logseq.com/privacy-policy/"]
-                      [(t :help/terms) "https://blog.logseq.com/terms/"]]}]]
+           :children [[(t :help/privacy) "https://github.com/vitalititas/logseq"]
+                      [(t :help/terms) "https://github.com/vitalititas/logseq"]]}]]
 
      (map (fn [sublist]
             [[:p.mt-4.mb-1 [:b (:title sublist)]]

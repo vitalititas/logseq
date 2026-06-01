@@ -73,13 +73,13 @@
   Example:
   ```clojure
   (register
-   {:id :document/open-logseq-doc
-    :desc \"Document: open Logseq documents\"
-    :action (fn [] (js/window.open \"https://docs.logseq.com/\"))})
+   {:id :document/open-docs
+    :desc \"Document: open Asymmetric AI documentation\"
+    :action (fn [] (js/window.open \"https://github.com/vitalititas/logseq\"))})
   ```
 
   To add i18n support, prefix `id` with command and put that item in dict.
-  Example: {:zh-CN {:command.document/open-logseq-doc \"打开文档\"}}"
+  Example: {:zh-CN {:command.document/open-docs \"打开文档\"}}"
   [{:keys [id] :as command}]
   (if (:command/shortcut command)
     (log/error :shortcut/missing (str "Shortcut is missing for " (:id command)))
@@ -112,6 +112,6 @@
 (comment
   ;; register custom command example
   (register
-   {:id :document/open-logseq-doc
-    :desc "Document: open Logseq documents"
-    :action (fn [] (js/window.open "https://docs.logseq.com/"))}))
+   {:id :document/open-docs
+    :desc "Document: open Asymmetric AI documentation"
+    :action (fn [] (js/window.open "https://github.com/vitalititas/logseq"))}))

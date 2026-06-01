@@ -1,0 +1,29 @@
+Logseq Phase 1 — swarm brief, 2026-05-26
+
+You're executing Phase 1 of the Logseq performance lightening plan. Phase 1 is the "free wins, low risk, ship first" set — five specific patches that came out of a 6-agent triangulation study earlier today and landed cross-model consensus. Your job is to apply exactly those five patches, no more.
+
+The repo is at /home/ieremias/code/logseq/ (operator's fork at vitalititas/logseq). The full plan is at /home/ieremias/Desktop/LOGSEQ_PERF_PLAN.md — read the Tier 1 section and items 2.1, 2.4, 2.5, 2.9 from Tier 2. Do not touch anything outside those five items in this pass.
+
+Create a new branch perf/phase1-2026-05-26 off master before you start.
+
+Here are the five patches.
+
+First, strip source maps and verbose logging from the release build. The file is shadow-cljs.edn. Around lines 40-46 and 80-82, goog.debug.LOGGING_ENABLED is set to true in release builds — flip it to false. Around lines 160-163, source maps are enabled in release — disable them. This is the single biggest free win in the plan, ~25MB off the AppImage with no behavior change.
+
+Second, kill the default block-insert transition. The file is src/main/frontend/components/block.css, lines 1029-1035, where transition: transform 0.3s ease lives on .ls-block-content-indent. Remove or comment that transition out by default, and only apply it during active drag (gate it with a class). The current setup makes block movement feel slower than it actually is.
+
+Third, bump the indexer time budget and reduce the inter-batch pause. Two files. In src/main/frontend/worker/db_core.cljs at lines 74-77 and 1104-1153, change the time budget from 8ms to 16ms (one full frame) and the pause between batches from 300ms to 50ms. In src/main/frontend/worker/search.cljs around line 95, bump the FTS insert batch size — the 2000 default is already reasonable, but the indexer batches can go ~3x larger if existing tests pass. The current 8ms-on / 300ms-off duty cycle is around 2.6%, which is absurdly conservative for modern devices.
+
+Fourth, add :db/index to :block/refs in the schema. The file is deps/db/src/logseq/db/frontend/schema.cljs at lines 71-72. Add :db/index true to the :block/refs attribute definition. This fixes backlink queries on high-frequency pages like TODO and DONE that currently full-scan every ref. Verify there's no re-index cost on existing graphs — DataScript built-in features usually don't trigger one, but worth confirming.
+
+Fifth, drop the backup polling interval and add a focus-based refresh trigger. The file is src/electron/electron/db.cljs at lines 15-16, 60, and 134-135. Change backup-interval-ms from 3600000 (one hour) to 60000 (one minute). Add a focus or visibility-change listener that immediately triggers a refresh check when the window comes back into focus. Currently external file edits — git pulls, other-device sync, manual edits in another app — can take up to an hour to be noticed. After this patch, it's seconds.
+
+That's all five. Six files touched in total: shadow-cljs.edn, src/main/frontend/components/block.css, src/main/frontend/worker/db_core.cljs, src/main/frontend/worker/search.cljs, deps/db/src/logseq/db/frontend/schema.cljs, src/electron/electron/db.cljs.
+
+Do not touch anything outside those six files. Do not refactor surrounding code. Do not add logging or instrumentation — the whole point of patch one is removing logging. Do not pull npm deps. Do not skip a patch because it looks too easy; they're intentional free wins. If you encounter a situation where you genuinely cannot tell whether a change would break tests, note it in the README and stop short of that single patch — keep going on the others.
+
+When you're done, produce a single zip named swarm_logseq_phase1_<date>.zip. Inside, put the six files at their exact relative paths under the repo root. Include a README.md at the top explaining which patches landed, the before/after expectation for each, and any deviation from the plan with the reason why. Include a PATCH_NOTES.md with per-patch detail — what file, what lines, brief rationale — written so Codex can audit each diff in isolation later. Include a MANIFEST.txt with the flat file list.
+
+Drop the zip at /home/ieremias/Desktop/agent hand off  prompts delee when used /2026-05-26-active-prompts/. The operator or Codex on audit pass will integrate, then run the existing AppImage build pipeline (the Build Linux AppImage workflow is already in the fork — gh workflow run triggers it) to measure before/after on a real graph.
+
+Phase 1 only. Five patches. Six files. One zip. The goal is fast wins so Phase 2 and Phase 3 — which are bigger touches — have runway.
