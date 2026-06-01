@@ -1315,7 +1315,7 @@ Similar to re-frame subscriptions"
 (defn restore-mobile-theme!
   "Restore mobile theme setting from local storage"
   []
-  (let [mode (or (storage/get :ui/theme) "light")
+  (let [mode (or (storage/get :ui/theme) "dark")
         system-theme? (storage/get :ui/system-theme?)]
     (when (mobile-util/native-platform?)
       (mobile-util/set-native-interface-style! mode system-theme?))
