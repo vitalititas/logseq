@@ -1,11 +1,11 @@
 {
  :account/authentication "Autentikasi"
- :account/benefits-desc "Dengan akun Asymmetric AI, Anda dapat mengakses layanan berbasis cloud seperti Asymmetric AI Sync dan fitur alpha/beta."
+ :account/benefits-desc "Dengan akun Felicitas Sapientiae, Anda dapat mengakses layanan berbasis cloud seperti Felicitas Sapientiae Sync dan fitur alpha/beta."
  :account/billing "Tagihan"
  :account/billing-expired-on-label "Paket Pro kedaluwarsa pada: {1}"
  :account/billing-expires-on-label "Paket Pro kedaluwarsa pada: {1}"
  :account/billing-next-date-label "Tanggal tagihan berikutnya: {1}"
- :account/core-features "Akses ke fitur inti Asymmetric AI"
+ :account/core-features "Akses ke fitur inti Felicitas Sapientiae"
  :account/current-plan "Paket saat ini"
  :account/delete-account "Hapus Akun"
  :account/discover-sync-desc "Temukan kehebatan {1}"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "Sinkronisasi aset hingga 100MB per file"
  :account/synced-status "Tersinkronisasi"
  :account/unlimited-unsynced-graphs "Graf tidak tersinkronisasi tanpa batas"
- :account/upcoming-cloud-features "Fitur berbasis cloud yang akan datang, termasuk Asymmetric AI Publish"
+ :account/upcoming-cloud-features "Fitur berbasis cloud yang akan datang, termasuk Felicitas Sapientiae Publish"
  :account/upgrade-plan "Tingkatkan paket"
  :account/username "Nama pengguna"
 
@@ -130,7 +130,7 @@
  :bug-report.inspector/tip "Ada yang salah? Tidak masalah, klik untuk kembali ke langkah sebelumnya."
  :bug-report.inspector/title "Pemeriksa data papan klip"
 
- :bug-report.issue/action-desc "Bantu Jadikan Asymmetric AI Lebih Baik!"
+ :bug-report.issue/action-desc "Bantu Jadikan Felicitas Sapientiae Lebih Baik!"
  :bug-report.issue/action-title "Mengirimkan laporan bug"
  :bug-report.issue/desc "Jika tidak ada alat bantu yang tersedia bagi Anda untuk mengumpulkan informasi tambahan, silakan laporkan bug secara langsung."
  :bug-report.issue/report-link "Laporkan masalah"
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "Unggah jenis file seperti gambar, PDF, DOCX, dll."
  :editor.slash/yesterday-desc "Sisipkan tanggal kemarin"
 
- :electron/about "Tentang Asymmetric AI"
+ :electron/about "Tentang Felicitas Sapientiae"
  :electron/add-to-dictionary "Tambahkan ke kamus"
  :electron/block-not-exist "Gagal membuka tautan. ID blok `{1}` tidak ada di grafik."
  :electron/cancel "Batal"
@@ -669,7 +669,7 @@
  :graph/create-new "Buat graf baru"
  :graph/creating "Membuat graf"
  :graph/delete-local-action "Hapus graf lokal"
- :graph/delete-local-confirm-desc "Apakah Anda yakin ingin menghapus graf \"{1}\" dari Asymmetric AI secara permanen?"
+ :graph/delete-local-confirm-desc "Apakah Anda yakin ingin menghapus graf \"{1}\" dari Felicitas Sapientiae secara permanen?"
  :graph/delete-server-action "Hapus dari server"
  :graph/delete-server-confirm-desc "Apakah Anda yakin ingin menghapus graf \"{1}\" dari server kami secara permanen?"
  :graph/delete-warning "⚠️ Perhatikan bahwa kami tidak dapat memulihkan graf ini setelah dihapus. Pastikan Anda memiliki salinan cadangan sebelum menghapusnya."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "Grafik dihapus dari sinkronisasi"
  :graph/shared-graphs "Grafik bersama"
  :graph/updated-switching "Grafik diperbarui. Beralih..."
- :graph/use-sync-beta "Gunakan Asymmetric AI Sync (uji beta)"
- :graph/use-sync-label "Gunakan Asymmetric AI Sync?"
+ :graph/use-sync-beta "Gunakan Felicitas Sapientiae Sync (uji beta)"
+ :graph/use-sync-label "Gunakan Felicitas Sapientiae Sync?"
 
  :graph.diagnostics/checksum-failed-error "Gagal menghitung diagnostik checksum grafik."
  :graph.diagnostics/checksum-recomputed-success "Checksum dihitung ulang. Hasil perhitungan ulang: {1}, lokal: {2}, remote: {3}. {4}.edn diunduh dengan {5} blok dan atribut checksum {6}."
@@ -743,12 +743,12 @@
  :header/quit-highlight-recent-blocks "Hentikan sorotan blok terbaru"
  :header/toggle-left-sidebar "Alihkan bilah sisi kiri"
 
- :help/about "Tentang Asymmetric AI"
+ :help/about "Tentang Felicitas Sapientiae"
  :help/about-title "Tentang"
  :help/ask-community "Tanya komunitas"
- :help/awesome-logseq "Asymmetric AI yang mengagumkan"
+ :help/awesome-logseq "Felicitas Sapientiae yang mengagumkan"
  :help/block-reference "Blok referensi"
- :help/blog "Blog Asymmetric AI"
+ :help/blog "Blog Felicitas Sapientiae"
  :help/bug "Laporan bug"
  :help/changelog "Catatan perubahan"
  :help/community-title "Komunitas"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "Nama grafik tidak boleh kosong."
  :import/extract-inline-code-snippets "Ekstrak potongan kode inline sebagai sub-bagian"
  :import/file-finished "Impor selesai!"
- :import/file-to-db-desc "Impor folder graf Asymmetric AI berbasis file ke graf DB baru"
+ :import/file-to-db-desc "Impor folder graf Felicitas Sapientiae berbasis file ke graf DB baru"
  :import/file-to-db-title "File ke graf DB"
  :import/graph-name-conflict "Grafik dengan nama ini sudah ada. Pilih nama lain!"
  :import/graph-name-placeholder "Nama grafik"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} blok tidak valid. Interaksi mungkin tidak berfungsi. Detail di konsol JavaScript."
  :import/invalid-edn-file "File EDN yang diberikan tidak valid. Perbaiki dan coba lagi."
  :import/loading "Mengimpor"
- :import/logseq-config-missing "Kesalahan: Grafik Asymmetric AI tidak memiliki file 'logseq/config.edn'."
+ :import/logseq-config-missing "Kesalahan: Grafik Felicitas Sapientiae tidak memiliki file 'logseq/config.edn'."
  :import/new-graph-name "Nama grafik baru"
  :import/notes "Impor catatan"
  :import/org-files-imported "{1} file Org diimpor sebagai Markdown. Dukungan Org akan ditambahkan nanti."
@@ -914,8 +914,8 @@
  :library/add-pages "Tambah halaman"
  :library/title "Pustaka"
 
- :mobile/camera-access-denied "Akses kamera ditolak. Aktifkan di Setelan > Asymmetric AI."
- :mobile/microphone-access-denied "Akses mikrofon ditolak. Aktifkan di Setelan > Asymmetric AI."
+ :mobile/camera-access-denied "Akses kamera ditolak. Aktifkan di Setelan > Felicitas Sapientiae."
+ :mobile/microphone-access-denied "Akses mikrofon ditolak. Aktifkan di Setelan > Felicitas Sapientiae."
 
  :mobile.header/actions "Tindakan"
  :mobile.header/create-graph "Buat grafik"
@@ -997,15 +997,15 @@
  :notification/clear-all "Hapus semua"
  :notification/copied "Disalin"
 
- :onboarding.import/desc "Jika ia dalam format EDN atau Markdown, Asymmetric AI dapat bekerja dengannya."
+ :onboarding.import/desc "Jika ia dalam format EDN atau Markdown, Felicitas Sapientiae dapat bekerja dengannya."
  :onboarding.import/sqlite-desc "Impor dari database SQLite"
  :onboarding.import/title "Apakah Anda sudah memiliki catatan yang ingin Anda impor?"
 
  :onboarding.import-option/desc "Anda juga dapat melakukan ini nanti di aplikasi."
  :onboarding.import-option/title "Mengimpor catatan yang ada"
 
- :onboarding.setup/desc "Pertama, Anda harus memilih folder di mana Asymmetric AI akan menyimpan pemikiran, ide, catatan Anda."
- :onboarding.setup/title (fn [] ["Selamat datang di " [:strong "Asymmetric AI!"]])
+ :onboarding.setup/desc "Pertama, Anda harus memilih folder di mana Felicitas Sapientiae akan menyimpan pemikiran, ide, catatan Anda."
+ :onboarding.setup/title (fn [] ["Selamat datang di " [:strong "Felicitas Sapientiae!"]])
 
  :page/add-to-favorites "Tambahkan ke Favorit"
  :page/added-tag-to-node "Menambahkan tag \"{1}\" ke \"{2}\""
@@ -1024,7 +1024,7 @@
  :page/go-back-home "Kembali ke beranda"
  :page/hide-properties "Sembunyikan properti"
  :page/local-storage "penyimpanan lokal"
- :page/logseq-is-having-a-problem "Asymmetric AI mengalami masalah. Untuk mencoba mengembalikannya ke keadaan yang berfungsi, silakan coba langkah-langkah aman berikut ini secara berurutan:"
+ :page/logseq-is-having-a-problem "Felicitas Sapientiae mengalami masalah. Untuk mencoba mengembalikannya ke keadaan yang berfungsi, silakan coba langkah-langkah aman berikut ini secara berurutan:"
  :page/make-private "Buat pribadi"
  :page/make-public "Buat publik untuk dipublikasikan"
  :page/moved-to-recycle "Node telah dipindahkan ke Tempat Sampah"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "Segarkan Daftar"
  :plugin/reload "Muat Ulang"
  :plugin/remote-error "Kesalahan jarak jauh: {1}"
- :plugin/report-modal-desc "Jika ada plugin yang tidak tersedia atau Anda berpikir itu berisi kode jahat, silakan kirim email ke {1}. Sebutkan nama plugin dan URL repositori GitHubnya. Tim Asymmetric AI biasanya merespons dalam satu hari kerja."
+ :plugin/report-modal-desc "Jika ada plugin yang tidak tersedia atau Anda berpikir itu berisi kode jahat, silakan kirim email ke {1}. Sebutkan nama plugin dan URL repositori GitHubnya. Tim Felicitas Sapientiae biasanya merespons dalam satu hari kerja."
  :plugin/report-security "Laporkan masalah keamanan"
  :plugin/restart "Restart Aplikasi"
  :plugin/search-plugin "Cari plugin"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "URL mendukung repositori GitHub dan server pengembangan lokal. (Contoh: {1}, {2})"
  :plugin.install-from-web-url/theme-label "tema"
 
- :plugin.package-config/detach-desc "Menghapusnya hanya melepaskan plugin dari Asymmetric AI dan membiarkan folder sumber tetap utuh."
+ :plugin.package-config/detach-desc "Menghapusnya hanya melepaskan plugin dari Felicitas Sapientiae dan membiarkan folder sumber tetap utuh."
  :plugin.package-config/parse-error "Gagal mengurai konfigurasi paket plugin."
  :plugin.package-config/remove-error "Gagal menghapus plugin rusak."
  :plugin.package-config/remove-external-success "Plugin rusak telah dihapus dari daftar plugin."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "Keluar dari mode kode"
  :plugin.settings/title "Pengaturan plugin"
 
- :plugin.themes/default-desc "Tema {1} bawaan Asymmetric AI."
+ :plugin.themes/default-desc "Tema {1} bawaan Felicitas Sapientiae."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "tema {1}"
  :plugin.themes/light-and-dark "tema terang & gelap"
@@ -1562,9 +1562,9 @@
  :settings.advanced/auto-chmod-desc "Atur izin file secara otomatis"
  :settings.advanced/auto-updater "Pembaruan otomatis"
  :settings.advanced/developer-mode "Mode pengembang"
- :settings.advanced/developer-mode-desc "Mode pengembang membantu kontributor dan pengembang ekstensi menguji integrasi mereka dengan Asymmetric AI dengan lebih efisien."
- :settings.advanced/disable-sentry "Kirim data penggunaan dan diagnosa ke Asymmetric AI"
- :settings.advanced/disable-sentry-desc "Asymmetric AI tidak akan pernah mengumpulkan database grafik lokal Anda atau menjual data Anda."
+ :settings.advanced/developer-mode-desc "Mode pengembang membantu kontributor dan pengembang ekstensi menguji integrasi mereka dengan Felicitas Sapientiae dengan lebih efisien."
+ :settings.advanced/disable-sentry "Kirim data penggunaan dan diagnosa ke Felicitas Sapientiae"
+ :settings.advanced/disable-sentry-desc "Felicitas Sapientiae tidak akan pernah mengumpulkan database grafik lokal Anda atau menjual data Anda."
  :settings.advanced/network-proxy "Proxy jaringan"
 
  :settings.ai/enable-mcp-server "Aktifkan server MCP"
@@ -1591,13 +1591,13 @@
  :settings.features/home-default-page "Atur halaman beranda default"
  :settings.features/home-default-page-update-success "Halaman default diperbarui"
  :settings.features/journals-enable-success "Jurnal diaktifkan"
- :settings.features/login-prompt "Untuk mengakses fitur-fitur baru sebelum orang lain, Anda harus menjadi Sponsor atau Pendukung Asymmetric AI di Open Collective dan oleh karena itu harus masuk terlebih dahulu."
+ :settings.features/login-prompt "Untuk mengakses fitur-fitur baru sebelum orang lain, Anda harus menjadi Sponsor atau Pendukung Felicitas Sapientiae di Open Collective dan oleh karena itu harus masuk terlebih dahulu."
  :settings.features/page-not-found "Halaman \"{1}\" belum ada. Harap buat halaman itu terlebih dahulu, lalu coba lagi."
  :settings.features/plugin-system "Pengaya"
 
  :settings.general/accent-color "Warna aksen"
  :settings.general/accent-color-alert "Peringatan warna"
- :settings.general/accent-color-logseq "Warna klasik Asymmetric AI"
+ :settings.general/accent-color-logseq "Warna klasik Felicitas Sapientiae"
  :settings.general/accent-color-none-desc "Batalkan warna aksen. Ini saat ini dalam tahap beta dan terutama digunakan untuk kompatibilitas dengan tema khusus."
  :settings.general/changelog "Apa yang baru?"
  :settings.general/check-for-updates "Periksa pembaruan"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "terang"
  :settings.general/theme-system "sistem"
 
- :settings.sync-server/clear-success "URL server sinkronisasi dihapus. Menggunakan Asymmetric AI Sync resmi."
+ :settings.sync-server/clear-success "URL server sinkronisasi dihapus. Menggunakan Felicitas Sapientiae Sync resmi."
  :settings.sync-server/reset "Reset ke default"
  :settings.sync-server/save-success "URL server sinkronisasi disimpan."
  :settings.sync-server/url "URL Server Sinkronisasi"
- :settings.sync-server/url-desc "Tetapkan URL server sinkronisasi HTTPS kustom untuk sinkronisasi self-hosted. Token autentikasi Asymmetric AI Anda akan dikirim ke server ini, jadi gunakan hanya URL yang tepercaya. Biarkan kosong untuk menggunakan Asymmetric AI Sync resmi."
+ :settings.sync-server/url-desc "Tetapkan URL server sinkronisasi HTTPS kustom untuk sinkronisasi self-hosted. Token autentikasi Felicitas Sapientiae Anda akan dikirim ke server ini, jadi gunakan hanya URL yang tepercaya. Biarkan kosong untuk menggunakan Felicitas Sapientiae Sync resmi."
  :settings.sync-server/url-invalid-error "URL harus diawali dengan https:// atau http://"
 
  :shell/input-command-title "Masukkan perintah"
@@ -1692,7 +1692,7 @@
  :sync/uploading "Mengunggah..."
  :sync/user-doesnt-exist-yet "Pengguna belum ada"
 
- :theme/logseq-default "Tema bawaan Asymmetric AI"
+ :theme/logseq-default "Tema bawaan Felicitas Sapientiae"
  :theme/switch-to "Beralih ke tema {1}"
 
  :ui/all-done "Semua Selesai!"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "Cap waktu YouTube belum tersedia di seluler."
 
  :zotero/attachments "Lampiran"
- :zotero/imported-file-warning "Ini adalah file Zotero yang diimpor, atur direktori data Zotero untuk membuka file ini di Asymmetric AI."
- :zotero/linked-file-warning "Ini adalah file Zotero yang ditautkan, atur direktori dasar lampiran tertaut Zotero untuk membuka file ini di Asymmetric AI."
+ :zotero/imported-file-warning "Ini adalah file Zotero yang diimpor, atur direktori data Zotero untuk membuka file ini di Felicitas Sapientiae."
+ :zotero/linked-file-warning "Ini adalah file Zotero yang ditautkan, atur direktori dasar lampiran tertaut Zotero untuk membuka file ini di Felicitas Sapientiae."
  :zotero/notes "Catatan"
 }

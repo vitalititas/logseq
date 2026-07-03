@@ -1,11 +1,11 @@
 {
  :account/authentication "المصادقة"
- :account/benefits-desc "مع حساب Asymmetric AI، يمكنك الوصول إلى الخدمات السحابية مثل Asymmetric AI Sync والميزات التجريبية."
+ :account/benefits-desc "مع حساب Felicitas Sapientiae، يمكنك الوصول إلى الخدمات السحابية مثل Felicitas Sapientiae Sync والميزات التجريبية."
  :account/billing "الفوترة"
  :account/billing-expired-on-label "انتهت خطة Pro في: {1}"
  :account/billing-expires-on-label "تنتهي خطة Pro في: {1}"
  :account/billing-next-date-label "تاريخ الفوترة التالي: {1}"
- :account/core-features "الوصول إلى ميزات Asymmetric AI الأساسية"
+ :account/core-features "الوصول إلى ميزات Felicitas Sapientiae الأساسية"
  :account/current-plan "الخطة الحالية"
  :account/delete-account "حذف الحساب"
  :account/discover-sync-desc "اكتشف قوة {1}"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "مزامنة الأصول حتى 100 ميجابايت لكل ملف"
  :account/synced-status "متزامن"
  :account/unlimited-unsynced-graphs "رسوم بيانية غير متزامنة غير محدودة"
- :account/upcoming-cloud-features "ميزات سحابية قادمة، بما في ذلك Asymmetric AI Publish"
+ :account/upcoming-cloud-features "ميزات سحابية قادمة، بما في ذلك Felicitas Sapientiae Publish"
  :account/upgrade-plan "ترقية الخطة"
  :account/username "اسم المستخدم"
 
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "رفع أنواع ملفات مثل صورة أو PDF أو DOCX وغيرها"
  :editor.slash/yesterday-desc "إدراج تاريخ أمس"
 
- :electron/about "حول Asymmetric AI"
+ :electron/about "حول Felicitas Sapientiae"
  :electron/add-to-dictionary "إضافة إلى القاموس"
  :electron/block-not-exist "فشل فتح الرابط. معرّف الكتلة `{1}` غير موجود في الرسم البياني."
  :electron/cancel "إلغاء"
@@ -669,7 +669,7 @@
  :graph/create-new "إنشاء رسم بياني جديد"
  :graph/creating "جارٍ إنشاء الرسم البياني"
  :graph/delete-local-action "حذف الرسم البياني المحلي"
- :graph/delete-local-confirm-desc "هل أنت متأكد من رغبتك في حذف الرسم البياني \"{1}\" نهائياً من Asymmetric AI؟"
+ :graph/delete-local-confirm-desc "هل أنت متأكد من رغبتك في حذف الرسم البياني \"{1}\" نهائياً من Felicitas Sapientiae؟"
  :graph/delete-server-action "حذف من الخادم"
  :graph/delete-server-confirm-desc "هل أنت متأكد من رغبتك في حذف الرسم البياني \"{1}\" نهائياً من خادمنا؟"
  :graph/delete-warning "⚠️ لاحظ أنه لا يمكننا استرجاع هذا الرسم البياني بعد حذفه. تأكد من أن لديك نسخ احتياطية قبل حذفه."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "تمت إزالة الرسم من المزامنة"
  :graph/shared-graphs "الرسوم المشتركة"
  :graph/updated-switching "تم تحديث الرسم. جارٍ التبديل..."
- :graph/use-sync-beta "استخدم Asymmetric AI Sync (اختبار بيتا)"
- :graph/use-sync-label "استخدام Asymmetric AI Sync?"
+ :graph/use-sync-beta "استخدم Felicitas Sapientiae Sync (اختبار بيتا)"
+ :graph/use-sync-label "استخدام Felicitas Sapientiae Sync?"
 
  :graph.diagnostics/checksum-failed-error "فشل حساب تشخيصات checksum للرسم البياني."
  :graph.diagnostics/checksum-recomputed-success "أُعيد حساب checksum. المُعاد حسابه: {1}، المحلي: {2}، البعيد: {3}. تم تنزيل {4}.edn مع {5} كتلة وسمات checksum {6}."
@@ -743,10 +743,10 @@
  :header/quit-highlight-recent-blocks "إيقاف تمييز الكتل الأخيرة"
  :header/toggle-left-sidebar "تبديل الشريط الجانبي الأيسر"
 
- :help/about "حول Asymmetric AI"
+ :help/about "حول Felicitas Sapientiae"
  :help/about-title "حول"
  :help/ask-community "اسأل المجتمع"
- :help/awesome-logseq "Awesome Asymmetric AI"
+ :help/awesome-logseq "Awesome Felicitas Sapientiae"
  :help/block-reference "مرجع الكتلة"
  :help/blog "المدونة"
  :help/bug "الإبلاغ عن خطأ على GitHub"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "اسم الرسم البياني لا يمكن أن يكون فارغاً."
  :import/extract-inline-code-snippets "استخراج مقتطفات الكود كأجزاء فرعية"
  :import/file-finished "اكتمل الاستيراد!"
- :import/file-to-db-desc "استيراد مجلد رسم بياني Asymmetric AI المستند إلى ملفات إلى رسم بياني DB جديد"
+ :import/file-to-db-desc "استيراد مجلد رسم بياني Felicitas Sapientiae المستند إلى ملفات إلى رسم بياني DB جديد"
  :import/file-to-db-title "ملف إلى رسم بياني DB"
  :import/graph-name-conflict "رسم بياني بهذا الاسم موجود بالفعل. اختر اسماً آخر!"
  :import/graph-name-placeholder "اسم الرسم البياني"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} كتلة غير صالحة. قد لا يعمل التفاعل. التفاصيل في وحدة تحكم JavaScript."
  :import/invalid-edn-file "ملف EDN المقدم غير صالح. صححه وحاول مرة أخرى."
  :import/loading "جارٍ الاستيراد"
- :import/logseq-config-missing "خطأ: رسم Asymmetric AI لا يحتوي على ملف 'logseq/config.edn'."
+ :import/logseq-config-missing "خطأ: رسم Felicitas Sapientiae لا يحتوي على ملف 'logseq/config.edn'."
  :import/new-graph-name "اسم رسم بياني جديد"
  :import/notes "استيراد الملاحظات"
  :import/org-files-imported "{1} ملف Org تم استيرادها كـ Markdown. دعم Org سيضاف لاحقاً."
@@ -914,8 +914,8 @@
  :library/add-pages "إضافة صفحات"
  :library/title "المكتبة"
 
- :mobile/camera-access-denied "يتم الوصول إلى الكاميرا مرفوضة. تمكنه في الإعدادات > Asymmetric AI."
- :mobile/microphone-access-denied "يتم الوصول إلى الميكروفون مرفوضة. تمكنه في الإعدادات > Asymmetric AI."
+ :mobile/camera-access-denied "يتم الوصول إلى الكاميرا مرفوضة. تمكنه في الإعدادات > Felicitas Sapientiae."
+ :mobile/microphone-access-denied "يتم الوصول إلى الميكروفون مرفوضة. تمكنه في الإعدادات > Felicitas Sapientiae."
 
  :mobile.header/actions "الإجراءات"
  :mobile.header/create-graph "إنشاء رسم بياني"
@@ -1005,7 +1005,7 @@
  :onboarding.import-option/title "استيراد البيانات"
 
  :onboarding.setup/desc "مساحة عمل لمعرفتك"
- :onboarding.setup/title (fn [] ["مرحباً بك في " [:strong "Asymmetric AI"] "!"])
+ :onboarding.setup/title (fn [] ["مرحباً بك في " [:strong "Felicitas Sapientiae"] "!"])
 
  :page/add-to-favorites "إضافة إلى المفضلة"
  :page/added-tag-to-node "تمت إضافة العلامة \"{1}\" إلى \"{2}\""
@@ -1024,7 +1024,7 @@
  :page/go-back-home "العودة إلى الصفحة الرئيسية"
  :page/hide-properties "إخفاء الخصائص"
  :page/local-storage "التخزين المحلي"
- :page/logseq-is-having-a-problem "يواجه Asymmetric AI مشكلة. لمحاولة إعادته إلى حالة عمل مستقرة، جرّب الخطوات الآمنة التالية بالترتيب:"
+ :page/logseq-is-having-a-problem "يواجه Felicitas Sapientiae مشكلة. لمحاولة إعادته إلى حالة عمل مستقرة، جرّب الخطوات الآمنة التالية بالترتيب:"
  :page/make-private "جعلها خاصة"
  :page/make-public "جعلها عامة"
  :page/moved-to-recycle "تم نقل العقدة إلى سلة المحذوفات"
@@ -1154,7 +1154,7 @@
  :plugin/no-settings-schema "لا يوجد مخطط إعدادات!"
  :plugin/not-installed "غير مثبتة"
  :plugin/open-logs "عرض السجلات"
- :plugin/open-logseq-dir "فتح مجلد Asymmetric AI"
+ :plugin/open-logseq-dir "فتح مجلد Felicitas Sapientiae"
  :plugin/open-package "فتح الحزمة"
  :plugin/open-preferences "فتح التفضيلات"
  :plugin/open-settings "فتح الإعدادات"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "تحديث القوائم"
  :plugin/reload "إعادة تحميل"
  :plugin/remote-error "خطأ من المصدر البعيد: {1}"
- :plugin/report-modal-desc "إذا كان أي مكون إضافي غير متاح أو كنت تعتقد أنه يحتوي على رمز ضار، يرجى إرسال بريد إلى {1}. اذكر اسم المكون الإضافي وعنوان URL لمستودع GitHub الخاص به. عادة ما يرد فريق Asymmetric AI في غضون يوم عمل واحد."
+ :plugin/report-modal-desc "إذا كان أي مكون إضافي غير متاح أو كنت تعتقد أنه يحتوي على رمز ضار، يرجى إرسال بريد إلى {1}. اذكر اسم المكون الإضافي وعنوان URL لمستودع GitHub الخاص به. عادة ما يرد فريق Felicitas Sapientiae في غضون يوم عمل واحد."
  :plugin/report-security "الإبلاغ عن مشكلة أمنية"
  :plugin/restart "إعادة تشغيل"
  :plugin/search-plugin "البحث عن إضافة"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "تدعم عناوين URL كل من مستودعات GitHub وخوادم التطوير المحلية. (للأمثلة: {1}, {2})"
  :plugin.install-from-web-url/theme-label "سمة"
 
- :plugin.package-config/detach-desc "إزالتها تفصل الإضافة عن Asymmetric AI فقط وتبقي مجلد المصدر دون تغيير."
+ :plugin.package-config/detach-desc "إزالتها تفصل الإضافة عن Felicitas Sapientiae فقط وتبقي مجلد المصدر دون تغيير."
  :plugin.package-config/parse-error "فشل تحليل إعدادات حزمة الإضافة."
  :plugin.package-config/remove-error "فشل إزالة الإضافة المعطوبة."
  :plugin.package-config/remove-external-success "تمت إزالة الإضافة المعطوبة من قائمة الإضافات."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "إنهاء وضع الكود"
  :plugin.settings/title "إعدادات الإضافات"
 
- :plugin.themes/default-desc "سمة Asymmetric AI الافتراضية {1}."
+ :plugin.themes/default-desc "سمة Felicitas Sapientiae الافتراضية {1}."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "سمات {1}"
  :plugin.themes/light-and-dark "سمات فاتحة وداكنة"
@@ -1562,7 +1562,7 @@
  :settings.advanced/auto-chmod-desc "تعيين أذونات الملفات تلقائياً"
  :settings.advanced/auto-updater "التحديثات التلقائية"
  :settings.advanced/developer-mode "وضع المطور"
- :settings.advanced/developer-mode-desc "يساعد وضع المطورين المساهمين ومطوري الإضافات على اختبار عمليات التكامل الخاصة بهم مع Asymmetric AI بكفاءة أكبر."
+ :settings.advanced/developer-mode-desc "يساعد وضع المطورين المساهمين ومطوري الإضافات على اختبار عمليات التكامل الخاصة بهم مع Felicitas Sapientiae بكفاءة أكبر."
  :settings.advanced/disable-sentry "تعطيل Sentry"
  :settings.advanced/disable-sentry-desc "تعطيل تقارير الأعطال"
  :settings.advanced/network-proxy "وكيل الشبكة"
@@ -1597,7 +1597,7 @@
 
  :settings.general/accent-color "لون التمييز"
  :settings.general/accent-color-alert "قد يؤدي اختيار لون تمييز إلى تجاوز أي سمة اخترتها."
- :settings.general/accent-color-logseq "لون Asymmetric AI الكلاسيكي"
+ :settings.general/accent-color-logseq "لون Felicitas Sapientiae الكلاسيكي"
  :settings.general/accent-color-none-desc "إلغاء لون التركيز. هذا حالياً في مرحلة بيتا وتستخدم في المقام الأول من أجل التوافق مع المواضيع المخصصة."
  :settings.general/changelog "سجل التغييرات"
  :settings.general/check-for-updates "التحقق من التحديثات"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "فاتح"
  :settings.general/theme-system "النظام"
 
- :settings.sync-server/clear-success "تم مسح URL خادم المزامنة. سيتم استخدام Asymmetric AI Sync الرسمي."
+ :settings.sync-server/clear-success "تم مسح URL خادم المزامنة. سيتم استخدام Felicitas Sapientiae Sync الرسمي."
  :settings.sync-server/reset "إعادة التعيين للافتراضي"
  :settings.sync-server/save-success "تم حفظ URL خادم المزامنة."
  :settings.sync-server/url "URL خادم المزامنة"
- :settings.sync-server/url-desc "عيّن URL مخصصًا لخادم مزامنة HTTPS للمزامنة المستضافة ذاتيًا. سيتم إرسال رموز مصادقة Asymmetric AI الخاصة بك إلى هذا الخادم، لذا استخدم URL موثوقًا فقط. اتركه فارغًا لاستخدام Asymmetric AI Sync الرسمي."
+ :settings.sync-server/url-desc "عيّن URL مخصصًا لخادم مزامنة HTTPS للمزامنة المستضافة ذاتيًا. سيتم إرسال رموز مصادقة Felicitas Sapientiae الخاصة بك إلى هذا الخادم، لذا استخدم URL موثوقًا فقط. اتركه فارغًا لاستخدام Felicitas Sapientiae Sync الرسمي."
  :settings.sync-server/url-invalid-error "يجب أن يبدأ URL بـ https:// أو http://"
 
  :shell/input-command-title "إدخال الأمر"
@@ -1692,7 +1692,7 @@
  :sync/uploading "جارٍ الرفع..."
  :sync/user-doesnt-exist-yet "المستخدم غير موجود بعد"
 
- :theme/logseq-default "سمة Asymmetric AI الافتراضية"
+ :theme/logseq-default "سمة Felicitas Sapientiae الافتراضية"
  :theme/switch-to "قم بالتبديل إلى السمة {1}"
 
  :ui/all-done "تم الكل"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "طوابع زمنية YouTube غير متاحة على الجوال حتى الآن."
 
  :zotero/attachments "المرفقات"
- :zotero/imported-file-warning "هذا ملف Zotero مستورد، عيّن دليل بيانات Zotero لفتح الملف في Asymmetric AI."
- :zotero/linked-file-warning "هذا ملف Zotero مرتبط، عيّن الدليل الأساسي للمرفقات المرتبطة في Zotero لفتح الملف في Asymmetric AI."
+ :zotero/imported-file-warning "هذا ملف Zotero مستورد، عيّن دليل بيانات Zotero لفتح الملف في Felicitas Sapientiae."
+ :zotero/linked-file-warning "هذا ملف Zotero مرتبط، عيّن الدليل الأساسي للمرفقات المرتبطة في Zotero لفتح الملف في Felicitas Sapientiae."
  :zotero/notes "ملاحظات"
 }

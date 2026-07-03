@@ -1,11 +1,11 @@
 {
  :account/authentication "Authenticatie"
- :account/benefits-desc "Met een Asymmetric AI-account heb je toegang tot cloudgebaseerde diensten zoals Asymmetric AI Sync en alfa/bèta-functies."
+ :account/benefits-desc "Met een Felicitas Sapientiae-account heb je toegang tot cloudgebaseerde diensten zoals Felicitas Sapientiae Sync en alfa/bèta-functies."
  :account/billing "Facturering"
  :account/billing-expired-on-label "Pro-abonnement verlopen op: {1}"
  :account/billing-expires-on-label "Pro-abonnement verloopt op: {1}"
  :account/billing-next-date-label "Volgende factuurdatum: {1}"
- :account/core-features "Toegang tot de kernfuncties van Asymmetric AI"
+ :account/core-features "Toegang tot de kernfuncties van Felicitas Sapientiae"
  :account/current-plan "Huidig abonnement"
  :account/delete-account "Account verwijderen"
  :account/discover-sync-desc "Ontdek de kracht van {1}"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "Synchroniseer bijlagen tot 100MB per bestand"
  :account/synced-status "Gesynchroniseerd"
  :account/unlimited-unsynced-graphs "Onbeperkt aantal niet-gesynchroniseerde grafieken"
- :account/upcoming-cloud-features "Aankomende cloudgebaseerde functies, waaronder Asymmetric AI Publish"
+ :account/upcoming-cloud-features "Aankomende cloudgebaseerde functies, waaronder Felicitas Sapientiae Publish"
  :account/upgrade-plan "Abonnement upgraden"
  :account/username "Gebruikersnaam"
 
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "Upload bestandstypen zoals afbeelding, PDF, DOCX, enz."
  :editor.slash/yesterday-desc "Voeg de datum van gisteren in"
 
- :electron/about "Over Asymmetric AI"
+ :electron/about "Over Felicitas Sapientiae"
  :electron/add-to-dictionary "Aan woordenboek toevoegen"
  :electron/block-not-exist "Link openen mislukt. Blok-id `{1}` bestaat niet in de grafiek."
  :electron/cancel "Annuleren"
@@ -669,7 +669,7 @@
  :graph/create-new "Nieuwe grafiek aanmaken"
  :graph/creating "Grafiek wordt gemaakt"
  :graph/delete-local-action "Lokale grafiek verwijderen"
- :graph/delete-local-confirm-desc "Weet u zeker dat u de grafiek \"{1}\" permanent uit Asymmetric AI wilt verwijderen?"
+ :graph/delete-local-confirm-desc "Weet u zeker dat u de grafiek \"{1}\" permanent uit Felicitas Sapientiae wilt verwijderen?"
  :graph/delete-server-action "Van server verwijderen"
  :graph/delete-server-confirm-desc "Weet u zeker dat u de grafiek \"{1}\" permanent van onze server wilt verwijderen?"
  :graph/delete-warning "⚠️ Let op: we kunnen deze grafiek na verwijdering niet herstellen. Zorg ervoor dat u een back-up hebt voordat u deze verwijdert."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "Grafiek uit synchronisatie verwijderd"
  :graph/shared-graphs "Gedeelde grafieken"
  :graph/updated-switching "Grafiek bijgewerkt. Schakelen..."
- :graph/use-sync-beta "Asymmetric AI Sync gebruiken (bètatest)"
- :graph/use-sync-label "Asymmetric AI Sync gebruiken?"
+ :graph/use-sync-beta "Felicitas Sapientiae Sync gebruiken (bètatest)"
+ :graph/use-sync-label "Felicitas Sapientiae Sync gebruiken?"
 
  :graph.diagnostics/checksum-failed-error "Kan checksum-diagnostiek voor de grafiek niet berekenen."
  :graph.diagnostics/checksum-recomputed-success "Checksum opnieuw berekend. Herberekend: {1}, lokaal: {2}, extern: {3}. {4}.edn is gedownload met {5} blokken en checksum-attributen {6}."
@@ -743,10 +743,10 @@
  :header/quit-highlight-recent-blocks "Markering van recente blokken stoppen"
  :header/toggle-left-sidebar "Linker zijbalk in-/uitschakelen"
 
- :help/about "Over Asymmetric AI"
+ :help/about "Over Felicitas Sapientiae"
  :help/about-title "Over"
  :help/ask-community "Vraag de community"
- :help/awesome-logseq "Awesome Asymmetric AI"
+ :help/awesome-logseq "Awesome Felicitas Sapientiae"
  :help/block-reference "Blok referentie"
  :help/blog "Blog"
  :help/bug "Bug melden op GitHub"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "Grafieknaam mag niet leeg zijn."
  :import/extract-inline-code-snippets "Inline codefragmenten extraheren als subblokken"
  :import/file-finished "Import voltooid!"
- :import/file-to-db-desc "Importeer een bestandsgebaseerde Asymmetric AI-grafiekmap in een nieuwe DB-grafiek"
+ :import/file-to-db-desc "Importeer een bestandsgebaseerde Felicitas Sapientiae-grafiekmap in een nieuwe DB-grafiek"
  :import/file-to-db-title "Bestand naar DB-grafiek"
  :import/graph-name-conflict "Er bestaat al een grafiek met deze naam. Kies een andere naam!"
  :import/graph-name-placeholder "Grafieknaam"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} ongeldige blokken gedetecteerd. Interactie werkt mogelijk niet. Details in de JavaScript-console."
  :import/invalid-edn-file "Het opgegeven EDN-bestand is ongeldig. Corrigeer het en probeer opnieuw."
  :import/loading "Importeren"
- :import/logseq-config-missing "Importfout: Asymmetric AI-grafiek bevat geen 'logseq/config.edn' bestand."
+ :import/logseq-config-missing "Importfout: Felicitas Sapientiae-grafiek bevat geen 'logseq/config.edn' bestand."
  :import/new-graph-name "Nieuwe grafieknaam"
  :import/notes "Notities importeren"
  :import/org-files-imported "{1} Org-bestanden geïmporteerd als Markdown. Org-ondersteuning wordt later toegevoegd."
@@ -914,8 +914,8 @@
  :library/add-pages "Pagina's toevoegen"
  :library/title "Bibliotheek"
 
- :mobile/camera-access-denied "Cameratoegang is geweigerd. Schakel het in bij Instellingen > Asymmetric AI."
- :mobile/microphone-access-denied "Microfoontogang is geweigerd. Schakel het in bij Instellingen > Asymmetric AI."
+ :mobile/camera-access-denied "Cameratoegang is geweigerd. Schakel het in bij Instellingen > Felicitas Sapientiae."
+ :mobile/microphone-access-denied "Microfoontogang is geweigerd. Schakel het in bij Instellingen > Felicitas Sapientiae."
 
  :mobile.header/actions "Acties"
  :mobile.header/create-graph "Grafiek aanmaken"
@@ -1005,7 +1005,7 @@
  :onboarding.import-option/title "Gegevens importeren"
 
  :onboarding.setup/desc "Werkruimte voor uw kennis"
- :onboarding.setup/title (fn [] ["Welkom bij " [:strong "Asymmetric AI!"]])
+ :onboarding.setup/title (fn [] ["Welkom bij " [:strong "Felicitas Sapientiae!"]])
 
  :page/add-to-favorites "Voeg aan favorieten toe"
  :page/added-tag-to-node "Tag \"{1}\" toegevoegd aan \"{2}\""
@@ -1024,7 +1024,7 @@
  :page/go-back-home "Terug naar startpagina"
  :page/hide-properties "Eigenschappen verbergen"
  :page/local-storage "lokale opslag"
- :page/logseq-is-having-a-problem "Asymmetric AI ondervindt een probleem"
+ :page/logseq-is-having-a-problem "Felicitas Sapientiae ondervindt een probleem"
  :page/make-private "Maak prive"
  :page/make-public "Maak publiek"
  :page/moved-to-recycle "Knooppunt is verplaatst naar Prullenbak"
@@ -1154,7 +1154,7 @@
  :plugin/no-settings-schema "Geen instellingsschema!"
  :plugin/not-installed "Niet geïnstalleerd"
  :plugin/open-logs "Logboeken bekijken"
- :plugin/open-logseq-dir "Asymmetric AI-map openen"
+ :plugin/open-logseq-dir "Felicitas Sapientiae-map openen"
  :plugin/open-package "Open pakket"
  :plugin/open-preferences "Voorkeuren openen"
  :plugin/open-settings "Open instellingen"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "Vernieuw lijsten"
  :plugin/reload "Herlaad"
  :plugin/remote-error "Externe fout: {1}"
- :plugin/report-modal-desc "Als een plugin niet beschikbaar is of u denkt dat deze schadelijke code bevat, stuur dan een e-mail naar {1}. Vermeld de naam van de plugin en de URL van de bijbehorende GitHub-repository. Het Asymmetric AI-team reageert meestal binnen een werkdag."
+ :plugin/report-modal-desc "Als een plugin niet beschikbaar is of u denkt dat deze schadelijke code bevat, stuur dan een e-mail naar {1}. Vermeld de naam van de plugin en de URL van de bijbehorende GitHub-repository. Het Felicitas Sapientiae-team reageert meestal binnen een werkdag."
  :plugin/report-security "Beveiligingsprobleem melden"
  :plugin/restart "Herstart app"
  :plugin/search-plugin "Plug-in zoeken"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "URL's ondersteunen zowel GitHub-repositories als lokale ontwikkelingservers. (Voor voorbeelden: {1}, {2})"
  :plugin.install-from-web-url/theme-label "thema"
 
- :plugin.package-config/detach-desc "Door deze te verwijderen wordt de plugin alleen losgekoppeld van Asymmetric AI en blijft de bronmap onaangetast."
+ :plugin.package-config/detach-desc "Door deze te verwijderen wordt de plugin alleen losgekoppeld van Felicitas Sapientiae en blijft de bronmap onaangetast."
  :plugin.package-config/parse-error "Kan de pakketconfiguratie van de plugin niet parseren."
  :plugin.package-config/remove-error "Kan de beschadigde plugin niet verwijderen."
  :plugin.package-config/remove-external-success "De beschadigde plugin is uit de pluginlijst verwijderd."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "Codemodus afsluiten"
  :plugin.settings/title "Plug-in-instellingen"
 
- :plugin.themes/default-desc "Standaardthema van Asymmetric AI ({1})."
+ :plugin.themes/default-desc "Standaardthema van Felicitas Sapientiae ({1})."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "Thema's ({1})"
  :plugin.themes/light-and-dark "lichte & donkere thema's"
@@ -1562,8 +1562,8 @@
  :settings.advanced/auto-chmod-desc "Bestandsmachtigingen automatisch instellen"
  :settings.advanced/auto-updater "Automatische updates"
  :settings.advanced/developer-mode "Ontwikkelaar modus"
- :settings.advanced/developer-mode-desc "De ontwikkelaarsmodus helpt bijdragers en extensie-ontwikkelaars om hun integratie met Asymmetric AI efficiënter te testen."
- :settings.advanced/disable-sentry "Gebruiksgegevens en diagnostiek naar Asymmetric AI sturen"
+ :settings.advanced/developer-mode-desc "De ontwikkelaarsmodus helpt bijdragers en extensie-ontwikkelaars om hun integratie met Felicitas Sapientiae efficiënter te testen."
+ :settings.advanced/disable-sentry "Gebruiksgegevens en diagnostiek naar Felicitas Sapientiae sturen"
  :settings.advanced/disable-sentry-desc "Crashrapportage uitschakelen"
  :settings.advanced/network-proxy "Netwerk proxy"
 
@@ -1597,7 +1597,7 @@
 
  :settings.general/accent-color "Accentkleur"
  :settings.general/accent-color-alert "Kleurwaarschuwing"
- :settings.general/accent-color-logseq "Klassieke Asymmetric AI-kleur"
+ :settings.general/accent-color-logseq "Klassieke Felicitas Sapientiae-kleur"
  :settings.general/accent-color-none-desc "Akcentkleur annuleren. Dit is momenteel in bètafase en wordt vooral gebruikt voor compatibiliteit met aangepaste thema's."
  :settings.general/changelog "Wijzigingslogboek"
  :settings.general/check-for-updates "Op updates controleren"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "Licht"
  :settings.general/theme-system "Systeem"
 
- :settings.sync-server/clear-success "De URL van de synchronisatieserver is gewist. De officiële Asymmetric AI Sync wordt gebruikt."
+ :settings.sync-server/clear-success "De URL van de synchronisatieserver is gewist. De officiële Felicitas Sapientiae Sync wordt gebruikt."
  :settings.sync-server/reset "Standaard herstellen"
  :settings.sync-server/save-success "De URL van de synchronisatieserver is opgeslagen."
  :settings.sync-server/url "URL van de synchronisatieserver"
- :settings.sync-server/url-desc "Stel een aangepaste HTTPS-URL in voor een zelfgehoste synchronisatieserver. Je Asymmetric AI-authenticatietokens worden naar deze server gestuurd, dus gebruik alleen een vertrouwde URL. Laat dit leeg om de officiële Asymmetric AI Sync te gebruiken."
+ :settings.sync-server/url-desc "Stel een aangepaste HTTPS-URL in voor een zelfgehoste synchronisatieserver. Je Felicitas Sapientiae-authenticatietokens worden naar deze server gestuurd, dus gebruik alleen een vertrouwde URL. Laat dit leeg om de officiële Felicitas Sapientiae Sync te gebruiken."
  :settings.sync-server/url-invalid-error "URL moet beginnen met https:// of http://"
 
  :shell/input-command-title "Opdracht invoeren"
@@ -1692,7 +1692,7 @@
  :sync/uploading "Uploaden..."
  :sync/user-doesnt-exist-yet "Gebruiker bestaat nog niet"
 
- :theme/logseq-default "Standaardthema van Asymmetric AI"
+ :theme/logseq-default "Standaardthema van Felicitas Sapientiae"
  :theme/switch-to "Schakel over naar het thema {1}"
 
  :ui/all-done "Alles klaar"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "YouTube-tijdstempels zijn op mobiel nog niet beschikbaar."
 
  :zotero/attachments "Bijlagen"
- :zotero/imported-file-warning "Dit is een geïmporteerd Zotero-bestand, stel Zotero-gegevensmap in om het bestand in Asymmetric AI te openen."
- :zotero/linked-file-warning "Dit is een gekoppeld Zotero-bestand, stel basismap voor gekoppelde Zotero-bijlagen in om het bestand in Asymmetric AI te openen."
+ :zotero/imported-file-warning "Dit is een geïmporteerd Zotero-bestand, stel Zotero-gegevensmap in om het bestand in Felicitas Sapientiae te openen."
+ :zotero/linked-file-warning "Dit is een gekoppeld Zotero-bestand, stel basismap voor gekoppelde Zotero-bijlagen in om het bestand in Felicitas Sapientiae te openen."
  :zotero/notes "Notities"
 }

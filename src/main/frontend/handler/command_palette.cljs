@@ -74,7 +74,7 @@
   ```clojure
   (register
    {:id :document/open-docs
-    :desc \"Document: open Asymmetric AI documentation\"
+    :desc \"Document: open Felicitas Sapientiae documentation\"
     :action (fn [] (js/window.open \"https://github.com/vitalititas/logseq\"))})
   ```
 
@@ -113,5 +113,5 @@
   ;; register custom command example
   (register
    {:id :document/open-docs
-    :desc "Document: open Asymmetric AI documentation"
+    :desc "Document: open Felicitas Sapientiae documentation"
     :action (fn [] (js/window.open "https://github.com/vitalititas/logseq"))}))

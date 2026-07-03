@@ -1,11 +1,11 @@
 {
  :account/authentication "認証"
- :account/benefits-desc "Asymmetric AIアカウントを使用すると、Asymmetric AI Syncやアルファ/ベータ機能などのクラウドベースのサービスにアクセスできます。"
+ :account/benefits-desc "Felicitas Sapientiaeアカウントを使用すると、Felicitas Sapientiae Syncやアルファ/ベータ機能などのクラウドベースのサービスにアクセスできます。"
  :account/billing "請求"
  :account/billing-expired-on-label "Proプランの有効期限切れ：{1}"
  :account/billing-expires-on-label "Proプランの有効期限：{1}"
  :account/billing-next-date-label "次回請求日：{1}"
- :account/core-features "Asymmetric AIのコア機能へのアクセス"
+ :account/core-features "Felicitas Sapientiaeのコア機能へのアクセス"
  :account/current-plan "現在のプラン"
  :account/delete-account "アカウントを削除"
  :account/discover-sync-desc "{1}のパワーを発見しよう"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "1ファイルあたり最大100MBのアセットを同期"
  :account/synced-status "同期済み"
  :account/unlimited-unsynced-graphs "未同期グラフは無制限"
- :account/upcoming-cloud-features "Asymmetric AI Publishを含む今後のクラウドベース機能"
+ :account/upcoming-cloud-features "Felicitas Sapientiae Publishを含む今後のクラウドベース機能"
  :account/upgrade-plan "プランをアップグレード"
  :account/username "ユーザー名"
 
@@ -130,7 +130,7 @@
  :bug-report.inspector/tip "なにかおかしいですか？問題ありません、クリックすることで前のステップに戻ることができます。"
  :bug-report.inspector/title "クリップボードのデータを調査"
 
- :bug-report.issue/action-desc "あなたのお手伝いでAsymmetric AIはより良くなります！"
+ :bug-report.issue/action-desc "あなたのお手伝いでFelicitas Sapientiaeはより良くなります！"
  :bug-report.issue/action-title "バグ報告を提出する"
  :bug-report.issue/desc "もし追加の情報を収集するツールが使えなかった場合、直接バグを報告してください。"
  :bug-report.issue/report-link "問題を報告"
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "画像、PDF、DOCX などのファイル形式をアップロード"
  :editor.slash/yesterday-desc "昨日の日付を挿入"
 
- :electron/about "Asymmetric AIについて"
+ :electron/about "Felicitas Sapientiaeについて"
  :electron/add-to-dictionary "辞書に追加"
  :electron/block-not-exist "リンクを開けませんでした。ブロックID `{1}` はグラフ内に存在しません。"
  :electron/cancel "キャンセル"
@@ -669,7 +669,7 @@
  :graph/create-new "新しいグラフを作成"
  :graph/creating "グラフを作成中"
  :graph/delete-local-action "ローカルグラフを削除"
- :graph/delete-local-confirm-desc "Asymmetric AIからグラフ\"{1}\"を永久に削除してもよろしいですか？"
+ :graph/delete-local-confirm-desc "Felicitas Sapientiaeからグラフ\"{1}\"を永久に削除してもよろしいですか？"
  :graph/delete-server-action "サーバーから削除"
  :graph/delete-server-confirm-desc "サーバーからグラフ\"{1}\"を永久に削除してもよろしいですか？"
  :graph/delete-warning "⚠️ 削除されたグラフは復旧できません。削除する前に必ずバックアップを作成してください。"
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "同期からグラフを削除しました"
  :graph/shared-graphs "共有グラフ"
  :graph/updated-switching "グラフが更新されました。切り替え中..."
- :graph/use-sync-beta "Asymmetric AI Sync を使う (ベータテスト)"
- :graph/use-sync-label "Asymmetric AI Sync を使いますか?"
+ :graph/use-sync-beta "Felicitas Sapientiae Sync を使う (ベータテスト)"
+ :graph/use-sync-label "Felicitas Sapientiae Sync を使いますか?"
 
  :graph.diagnostics/checksum-failed-error "グラフのチェックサム診断の計算に失敗しました。"
  :graph.diagnostics/checksum-recomputed-success "チェックサムを再計算しました。再計算結果: {1}、ローカル: {2}、リモート: {3}。{5} 個のブロックとチェックサム属性 {6} を含む {4}.edn をダウンロードしました。"
@@ -743,12 +743,12 @@
  :header/quit-highlight-recent-blocks "最近のブロックのハイライトを終了"
  :header/toggle-left-sidebar "左サイドバーを開閉"
 
- :help/about "Asymmetric AIについて"
- :help/about-title "Asymmetric AIについて"
+ :help/about "Felicitas Sapientiaeについて"
+ :help/about-title "Felicitas Sapientiaeについて"
  :help/ask-community "コミュニティに質問"
- :help/awesome-logseq "素晴らしきAsymmetric AI"
+ :help/awesome-logseq "素晴らしきFelicitas Sapientiae"
  :help/block-reference "ブロック参照"
- :help/blog "Asymmetric AI ブログ"
+ :help/blog "Felicitas Sapientiae ブログ"
  :help/bug "バグ報告"
  :help/changelog "更新履歴"
  :help/community-title "コミュニティ"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "グラフ名を空にすることはできません。"
  :import/extract-inline-code-snippets "インラインコードスニペットを子ブロックとして抽出"
  :import/file-finished "インポート完了！"
- :import/file-to-db-desc "ファイルベースのAsymmetric AIグラフフォルダを新しいDBグラフにインポート"
+ :import/file-to-db-desc "ファイルベースのFelicitas Sapientiaeグラフフォルダを新しいDBグラフにインポート"
  :import/file-to-db-title "ファイルからDBグラフ"
  :import/graph-name-conflict "同じ名前のグラフが既に存在します。別の名前を指定してください！"
  :import/graph-name-placeholder "グラフ名"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "インポート中に{1}個の無効なブロックが検出されました。操作時に問題が生じる可能性があります。詳細はJavaScriptコンソールを確認してください。"
  :import/invalid-edn-file "指定されたEDNファイルは無効です。修正してから再試行してください。"
  :import/loading "インポート中"
- :import/logseq-config-missing "インポートに失敗しました：Asymmetric AIグラフに「logseq/config.edn」ファイルが見つかりません。"
+ :import/logseq-config-missing "インポートに失敗しました：Felicitas Sapientiaeグラフに「logseq/config.edn」ファイルが見つかりません。"
  :import/new-graph-name "新しいグラフ名"
  :import/notes "既存のノートをインポート"
  :import/org-files-imported "{1}個のorgファイルをMarkdownとしてインポートしました。orgファイルのサポートは今後追加予定です。"
@@ -914,8 +914,8 @@
  :library/add-pages "ページを追加"
  :library/title "ライブラリ"
 
- :mobile/camera-access-denied "カメラアクセスが拒否されました。設定 > Asymmetric AIで有効にしてください。"
- :mobile/microphone-access-denied "マイクアクセスが拒否されました。設定 > Asymmetric AIで有効にしてください。"
+ :mobile/camera-access-denied "カメラアクセスが拒否されました。設定 > Felicitas Sapientiaeで有効にしてください。"
+ :mobile/microphone-access-denied "マイクアクセスが拒否されました。設定 > Felicitas Sapientiaeで有効にしてください。"
 
  :mobile.header/actions "アクション"
  :mobile.header/create-graph "グラフを作成"
@@ -997,7 +997,7 @@
  :notification/clear-all "すべてクリア"
  :notification/copied "コピーしました"
 
- :onboarding.import/desc "EDN、Markdown形式のいずれかであればAsymmetric AIはうまく処理できます。"
+ :onboarding.import/desc "EDN、Markdown形式のいずれかであればFelicitas Sapientiaeはうまく処理できます。"
  :onboarding.import/sqlite-desc "SQLiteデータベースからインポート"
  :onboarding.import/title "既に持っている読み込みたいノートはありますか？"
 
@@ -1005,7 +1005,7 @@
  :onboarding.import-option/title "既に存在するノートを読み込む"
 
  :onboarding.setup/desc "はじめに、あなたの考えやアイデア、ノートを保存しておくためのフォルダを選択する必要があります。"
- :onboarding.setup/title (fn [] [["ようこそ！ " [:strong "Asymmetric AI"] " へ！"]])
+ :onboarding.setup/title (fn [] [["ようこそ！ " [:strong "Felicitas Sapientiae"] " へ！"]])
 
  :page/add-to-favorites "お気に入りに追加"
  :page/added-tag-to-node "タグ「{1}」を「{2}」に追加しました"
@@ -1024,7 +1024,7 @@
  :page/go-back-home "ホームに戻る"
  :page/hide-properties "プロパティを隠す"
  :page/local-storage "ローカルストレージ"
- :page/logseq-is-having-a-problem "Asymmetric AIになにか問題があります。きちんと動く状態に戻すため、以下の項目を上から順番に実行してください："
+ :page/logseq-is-having-a-problem "Felicitas Sapientiaeになにか問題があります。きちんと動く状態に戻すため、以下の項目を上から順番に実行してください："
  :page/make-private "非公開にする"
  :page/make-public "パブリッシュのため公開する"
  :page/moved-to-recycle "ノードはごみ箱に移動されました"
@@ -1167,7 +1167,7 @@
  :plugin/no-settings-schema "設定スキーマがありません！"
  :plugin/not-installed "未インストール"
  :plugin/open-logs "ログを表示"
- :plugin/open-logseq-dir "Asymmetric AIディレクトリを開く"
+ :plugin/open-logseq-dir "Felicitas Sapientiaeディレクトリを開く"
  :plugin/open-package "パッケージを開く"
  :plugin/open-preferences "環境設定を開く"
  :plugin/open-settings "設定を開く"
@@ -1178,7 +1178,7 @@
  :plugin/refresh-lists "リスト更新"
  :plugin/reload "リロード"
  :plugin/remote-error "リモートエラー: {1}"
- :plugin/report-modal-desc "プラグインが利用できない、または悪意のあるコードが含まれていると思われる場合は、{1}にメールしてください。プラグインの名前とGitHubリポジトリのURLを記入してください。Asymmetric AIチームは通常1営業日以内に対応します。"
+ :plugin/report-modal-desc "プラグインが利用できない、または悪意のあるコードが含まれていると思われる場合は、{1}にメールしてください。プラグインの名前とGitHubリポジトリのURLを記入してください。Felicitas Sapientiaeチームは通常1営業日以内に対応します。"
  :plugin/report-security "セキュリティを報告"
  :plugin/restart "アプリを再起動"
  :plugin/search-plugin "プラグインを検索"
@@ -1210,7 +1210,7 @@
  :plugin.install-from-web-url/supports-note "URLはGitHubリポジトリとローカル開発サーバーの両方をサポートしています。（例：{1}、{2}）"
  :plugin.install-from-web-url/theme-label "テーマ"
 
- :plugin.package-config/detach-desc "削除しても、Asymmetric AI からプラグインを切り離すだけで、元のフォルダーはそのまま残ります。"
+ :plugin.package-config/detach-desc "削除しても、Felicitas Sapientiae からプラグインを切り離すだけで、元のフォルダーはそのまま残ります。"
  :plugin.package-config/parse-error "プラグインパッケージ設定の解析に失敗しました。"
  :plugin.package-config/remove-error "破損したプラグインの削除に失敗しました。"
  :plugin.package-config/remove-external-success "破損したプラグインをプラグイン一覧から削除しました。"
@@ -1225,7 +1225,7 @@
  :plugin.settings/exit-code-mode "コードモードを終了"
  :plugin.settings/title "プラグイン設定"
 
- :plugin.themes/default-desc "Asymmetric AI のデフォルト{1}テーマ."
+ :plugin.themes/default-desc "Felicitas Sapientiae のデフォルト{1}テーマ."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "{1}テーマ"
  :plugin.themes/light-and-dark "ライト・ダークテーマ"
@@ -1575,9 +1575,9 @@
  :settings.advanced/auto-chmod-desc "ファイル保存時に権限を自動設定します"
  :settings.advanced/auto-updater "自動更新"
  :settings.advanced/developer-mode "開発者モード"
- :settings.advanced/developer-mode-desc "開発者モードはコントリビューターと機能拡張の開発者がAsymmetric AIとの統合をより効率的にテストする助けになります。"
- :settings.advanced/disable-sentry "使用状況データと診断内容をAsymmetric AIへ送信します。"
- :settings.advanced/disable-sentry-desc "Asymmetric AIはあなたのローカルなグラフを決して取得しませんし、あなたのデータを売ることも決してありません。 "
+ :settings.advanced/developer-mode-desc "開発者モードはコントリビューターと機能拡張の開発者がFelicitas Sapientiaeとの統合をより効率的にテストする助けになります。"
+ :settings.advanced/disable-sentry "使用状況データと診断内容をFelicitas Sapientiaeへ送信します。"
+ :settings.advanced/disable-sentry-desc "Felicitas Sapientiaeはあなたのローカルなグラフを決して取得しませんし、あなたのデータを売ることも決してありません。 "
  :settings.advanced/network-proxy "ネットワークプロキシ"
 
  :settings.ai/enable-mcp-server "MCPサーバーを有効化"
@@ -1604,13 +1604,13 @@
  :settings.features/home-default-page "起動時のホームページを設定"
  :settings.features/home-default-page-update-success "ホームのデフォルトページを更新しました"
  :settings.features/journals-enable-success "ジャーナルを有効化"
- :settings.features/login-prompt "新しい機能を誰よりも早く使いたい場合は、Asymmetric AIのOpen Collective Sponsorか後援者になった上で、ログインしてください。"
+ :settings.features/login-prompt "新しい機能を誰よりも早く使いたい場合は、Felicitas SapientiaeのOpen Collective Sponsorか後援者になった上で、ログインしてください。"
  :settings.features/page-not-found "ページ「{1}」はまだ存在しません。まずそのページを作成してから、再試行してください。"
  :settings.features/plugin-system "プラグイン"
 
  :settings.general/accent-color "ハイライトカラー"
  :settings.general/accent-color-alert "アクセントカラーを選択すると、選択したテーマが上書きされる場合があります。"
- :settings.general/accent-color-logseq "Asymmetric AI クラシックカラー"
+ :settings.general/accent-color-logseq "Felicitas Sapientiae クラシックカラー"
  :settings.general/accent-color-none-desc "アクセントカラーをキャンセルします。現在ベータ段階であり、主にカスタムテーマとの互換性のために使用されます。"
  :settings.general/changelog "更新履歴"
  :settings.general/check-for-updates "更新を確認"
@@ -1636,11 +1636,11 @@
  :settings.general/theme-light "ライト"
  :settings.general/theme-system "システム"
 
- :settings.sync-server/clear-success "同期サーバー URL をクリアしました。公式の Asymmetric AI Sync を使用します。"
+ :settings.sync-server/clear-success "同期サーバー URL をクリアしました。公式の Felicitas Sapientiae Sync を使用します。"
  :settings.sync-server/reset "デフォルトに戻す"
  :settings.sync-server/save-success "同期サーバー URL を保存しました。"
  :settings.sync-server/url "同期サーバー URL"
- :settings.sync-server/url-desc "セルフホスト同期用のカスタム HTTPS 同期サーバー URL を設定します。Asymmetric AI の認証トークンはこのサーバーに送信されるため、信頼できる URL のみを使用してください。空のままにすると、公式の Asymmetric AI Sync を使用します。"
+ :settings.sync-server/url-desc "セルフホスト同期用のカスタム HTTPS 同期サーバー URL を設定します。Felicitas Sapientiae の認証トークンはこのサーバーに送信されるため、信頼できる URL のみを使用してください。空のままにすると、公式の Felicitas Sapientiae Sync を使用します。"
  :settings.sync-server/url-invalid-error "URL は https:// または http:// で始まる必要があります"
 
  :shell/input-command-title "コマンド入力"
@@ -1705,7 +1705,7 @@
  :sync/uploading "アップロード中..."
  :sync/user-doesnt-exist-yet "ユーザーはまだ存在しません"
 
- :theme/logseq-default "Asymmetric AI デフォルトテーマ"
+ :theme/logseq-default "Felicitas Sapientiae デフォルトテーマ"
  :theme/switch-to "{1} テーマに切り替える"
 
  :ui/all-done "全て完了しました"
@@ -1848,7 +1848,7 @@
  :youtube/timestamps-not-available-mobile "YouTubeタイムスタンプはまだモバイルで利用できません。"
 
  :zotero/attachments "添付ファイル"
- :zotero/imported-file-warning "これは Zotero からインポートされたファイルです、Asymmetric AI でファイルを開くには Zotero データディレクトリ を設定してください。"
- :zotero/linked-file-warning "これは Zotero にリンクされたファイルです、Asymmetric AI でファイルを開くには Zotero リンク添付ファイルのベースディレクトリ を設定してください。"
+ :zotero/imported-file-warning "これは Zotero からインポートされたファイルです、Felicitas Sapientiae でファイルを開くには Zotero データディレクトリ を設定してください。"
+ :zotero/linked-file-warning "これは Zotero にリンクされたファイルです、Felicitas Sapientiae でファイルを開くには Zotero リンク添付ファイルのベースディレクトリ を設定してください。"
  :zotero/notes "ノート"
 }

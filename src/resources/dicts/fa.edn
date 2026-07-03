@@ -1,11 +1,11 @@
 {
  :account/authentication "احراز هویت"
- :account/benefits-desc "با داشتن حساب کاربری Asymmetric AI، می‌توانید به سرویس‌های مبتنی بر ابر مانند Asymmetric AI Sync و ویژگی‌های آلفا/بتا دسترسی داشته باشید."
+ :account/benefits-desc "با داشتن حساب کاربری Felicitas Sapientiae، می‌توانید به سرویس‌های مبتنی بر ابر مانند Felicitas Sapientiae Sync و ویژگی‌های آلفا/بتا دسترسی داشته باشید."
  :account/billing "صورتحساب"
  :account/billing-expired-on-label "طرح Pro در تاریخ {1} منقضی شده است"
  :account/billing-expires-on-label "طرح Pro در تاریخ {1} منقضی می‌شود"
  :account/billing-next-date-label "تاریخ صورتحساب بعدی: {1}"
- :account/core-features "دسترسی به ویژگی‌های اصلی Asymmetric AI"
+ :account/core-features "دسترسی به ویژگی‌های اصلی Felicitas Sapientiae"
  :account/current-plan "طرح فعلی"
  :account/delete-account "حذف حساب کاربری"
  :account/discover-sync-desc "قدرت {1} را کشف کنید"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "همگام‌سازی فایل‌های پیوست تا ۱۰۰ مگابایت برای هر فایل"
  :account/synced-status "همگام‌سازی شده"
  :account/unlimited-unsynced-graphs "گراف‌های همگام‌سازی نشده نامحدود"
- :account/upcoming-cloud-features "ویژگی‌های ابری آینده، از جمله Asymmetric AI Publish"
+ :account/upcoming-cloud-features "ویژگی‌های ابری آینده، از جمله Felicitas Sapientiae Publish"
  :account/upgrade-plan "ارتقای طرح"
  :account/username "نام کاربری"
 
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "بارگذاری انواع فایل مثل تصویر، PDF، DOCX و غیره"
  :editor.slash/yesterday-desc "درج تاریخ دیروز"
 
- :electron/about "درباره Asymmetric AI"
+ :electron/about "درباره Felicitas Sapientiae"
  :electron/add-to-dictionary "افزودن به فرهنگ لغت"
  :electron/block-not-exist "باز کردن پیوند ناموفق بود. شناسهٔ بلوک `{1}` در گراف وجود ندارد."
  :electron/cancel "لغو"
@@ -669,7 +669,7 @@
  :graph/create-new "ایجاد گراف جدید"
  :graph/creating "در حال ایجاد گراف"
  :graph/delete-local-action "حذف گراف محلی"
- :graph/delete-local-confirm-desc "آیا مطمئن هستید که می‌خواهید گراف \"{1}\" را برای‌ همیشه از Asymmetric AI حذف کنید؟"
+ :graph/delete-local-confirm-desc "آیا مطمئن هستید که می‌خواهید گراف \"{1}\" را برای‌ همیشه از Felicitas Sapientiae حذف کنید؟"
  :graph/delete-server-action "حذف از سرور"
  :graph/delete-server-confirm-desc "آیا مطمئن هستید که می‌خواهید گراف \"{1}\" را برای‌ همیشه از سرور ما حذف کنید؟"
  :graph/delete-warning "⚠️ توجه داشته باشید که پس از حذف نمی‌توانیم این گراف را بازیابی کنیم. مطمئن شوید که قبل از حذف پشتیبان‌های پیشگیری‌کننده دارید."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "گراف از همگام‌سازی حذف شد"
  :graph/shared-graphs "گراف‌های اشتراکی"
  :graph/updated-switching "گراف به‌روزرسانی شد. در حال تغییر..."
- :graph/use-sync-beta "استفاده از Asymmetric AI Sync (آزمایش بتا)"
- :graph/use-sync-label "استفاده از Asymmetric AI Sync?"
+ :graph/use-sync-beta "استفاده از Felicitas Sapientiae Sync (آزمایش بتا)"
+ :graph/use-sync-label "استفاده از Felicitas Sapientiae Sync?"
 
  :graph.diagnostics/checksum-failed-error "محاسبهٔ عیب‌یابی checksum گراف ناموفق بود."
  :graph.diagnostics/checksum-recomputed-success "Checksum دوباره محاسبه شد. مقدار جدید: {1}، محلی: {2}، راه‌دور: {3}. فایل {4}.edn با {5} بلوک و ویژگی‌های checksum {6} دانلود شد."
@@ -746,7 +746,7 @@
  :help/about "درباره لاگ‌سیک"
  :help/about-title "درباره"
  :help/ask-community "از جامعه بپرسید"
- :help/awesome-logseq "Awesome Asymmetric AI"
+ :help/awesome-logseq "Awesome Felicitas Sapientiae"
  :help/block-reference "ارجاع بلوک"
  :help/blog "وبلاگ"
  :help/bug "گزارش باگ در GitHub"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "نام گراف نمی‌تواند خالی باشد."
  :import/extract-inline-code-snippets "استخراج قطعه‌کدهای درون‌خطی به عنوان زیرمجموعه"
  :import/file-finished "وارد کردن تمام شد!"
- :import/file-to-db-desc "وارد کردن پوشه گراف Asymmetric AI مبتنی بر فایل به گراف DB جدید"
+ :import/file-to-db-desc "وارد کردن پوشه گراف Felicitas Sapientiae مبتنی بر فایل به گراف DB جدید"
  :import/file-to-db-title "فایل به گراف DB"
  :import/graph-name-conflict "گرافی با این نام از قبل وجود دارد. نام دیگری انتخاب کنید!"
  :import/graph-name-placeholder "نام گراف"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} بلوک نامعتبر. تعامل ممکن نیست. جزئیات در کنسول JavaScript."
  :import/invalid-edn-file "فایل EDN ارائه‌شده نامعتبر است. اصلاح کرده و دوباره تلاش کنید."
  :import/loading "در حال وارد کردن"
- :import/logseq-config-missing "خطا: گراف Asymmetric AI فایل 'logseq/config.edn' را ندارد."
+ :import/logseq-config-missing "خطا: گراف Felicitas Sapientiae فایل 'logseq/config.edn' را ندارد."
  :import/new-graph-name "نام گراف جدید"
  :import/notes "وارد کردن یادداشت‌ها"
  :import/org-files-imported "{1} فایل Org به عنوان Markdown وارد شد. پشتیبانی Org بعداً اضافه خواهد شد."
@@ -914,8 +914,8 @@
  :library/add-pages "افزودن صفحه‌ها"
  :library/title "کتابخانه"
 
- :mobile/camera-access-denied "دسترسی دوربین رد شده است. آن را در تنظیمات > Asymmetric AI فعال کنید."
- :mobile/microphone-access-denied "دسترسی میکروفون رد شده است. آن را در تنظیمات > Asymmetric AI فعال کنید."
+ :mobile/camera-access-denied "دسترسی دوربین رد شده است. آن را در تنظیمات > Felicitas Sapientiae فعال کنید."
+ :mobile/microphone-access-denied "دسترسی میکروفون رد شده است. آن را در تنظیمات > Felicitas Sapientiae فعال کنید."
 
  :mobile.header/actions "عملیات"
  :mobile.header/create-graph "ایجاد گراف"
@@ -1005,7 +1005,7 @@
  :onboarding.import-option/title "وارد کردن داده‌ها"
 
  :onboarding.setup/desc "فضای کاری برای دانش شما"
- :onboarding.setup/title (fn [] ["به " [:strong "Asymmetric AI"] " خوش آمدید!"])
+ :onboarding.setup/title (fn [] ["به " [:strong "Felicitas Sapientiae"] " خوش آمدید!"])
 
  :page/add-to-favorites "افزودن به علاقه‌مندی‌ها"
  :page/added-tag-to-node "برچسب \"{1}\" را به \"{2}\" اضافه کرد"
@@ -1024,7 +1024,7 @@
  :page/go-back-home "بازگشت به صفحه اصلی"
  :page/hide-properties "مخفی کردن ویژگی‌ها"
  :page/local-storage "حافظه محلی"
- :page/logseq-is-having-a-problem "Asymmetric AI با مشکلی مواجه شده است. برای برگرداندن برنامه به حالت پایدار، لطفاً این مراحل امن را به‌ترتیب امتحان کنید:"
+ :page/logseq-is-having-a-problem "Felicitas Sapientiae با مشکلی مواجه شده است. برای برگرداندن برنامه به حالت پایدار، لطفاً این مراحل امن را به‌ترتیب امتحان کنید:"
  :page/make-private "خصوصی کردن"
  :page/make-public "عمومی کردن"
  :page/moved-to-recycle "گره به سطل بازیافت منتقل شد"
@@ -1154,7 +1154,7 @@
  :plugin/no-settings-schema "بدون طرح تنظیمات!"
  :plugin/not-installed "نصب نشده"
  :plugin/open-logs "مشاهده گزارش‌ها"
- :plugin/open-logseq-dir "باز کردن پوشه Asymmetric AI"
+ :plugin/open-logseq-dir "باز کردن پوشه Felicitas Sapientiae"
  :plugin/open-package "باز کردن بسته"
  :plugin/open-preferences "باز کردن تنظیمات"
  :plugin/open-settings "باز کردن تنظیمات"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "بازآوری فهرست‌ها"
  :plugin/reload "بارگذاری مجدد"
  :plugin/remote-error "خطای راه‌دور: {1}"
- :plugin/report-modal-desc "اگر هیچ افزونه‌ای غیرفعال است یا فکر می‌کنید که دارای کد مخرب است، لطفاً به {1} ایمیل بفرستید. نام افزونه و URL مخزن GitHub آن را ذکر کنید. تیم Asymmetric AI معمولاً در طول یک روز کاری پاسخ می‌دهد."
+ :plugin/report-modal-desc "اگر هیچ افزونه‌ای غیرفعال است یا فکر می‌کنید که دارای کد مخرب است، لطفاً به {1} ایمیل بفرستید. نام افزونه و URL مخزن GitHub آن را ذکر کنید. تیم Felicitas Sapientiae معمولاً در طول یک روز کاری پاسخ می‌دهد."
  :plugin/report-security "گزارش مشکل امنیتی"
  :plugin/restart "راه‌اندازی مجدد"
  :plugin/search-plugin "جستجوی افزونه"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "آدرس‌های URL هم مخازن GitHub و هم سرورهای توسعه محلی را پشتیبانی می‌کنند. (برای نمونه‌ها: {1}, {2})"
  :plugin.install-from-web-url/theme-label "پوسته"
 
- :plugin.package-config/detach-desc "حذف آن فقط افزونه را از Asymmetric AI جدا می‌کند و پوشهٔ منبع را دست‌نخورده نگه می‌دارد."
+ :plugin.package-config/detach-desc "حذف آن فقط افزونه را از Felicitas Sapientiae جدا می‌کند و پوشهٔ منبع را دست‌نخورده نگه می‌دارد."
  :plugin.package-config/parse-error "تجزیهٔ پیکربندی بستهٔ افزونه ناموفق بود."
  :plugin.package-config/remove-error "حذف افزونهٔ خراب ناموفق بود."
  :plugin.package-config/remove-external-success "افزونهٔ خراب از فهرست افزونه‌ها حذف شد."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "خروج از حالت کد"
  :plugin.settings/title "تنظیمات افزونه‌ها"
 
- :plugin.themes/default-desc "تم پیش‌فرض {1} Asymmetric AI."
+ :plugin.themes/default-desc "تم پیش‌فرض {1} Felicitas Sapientiae."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "تم‌های {1}"
  :plugin.themes/light-and-dark "تم‌های روشن و تیره"
@@ -1597,7 +1597,7 @@
 
  :settings.general/accent-color "رنگ تأکیدی"
  :settings.general/accent-color-alert "انتخاب رنگ تأکیدی ممکن است پوسته‌ای را که انتخاب کرده‌اید نادیده بگیرد."
- :settings.general/accent-color-logseq "رنگ کلاسیک Asymmetric AI"
+ :settings.general/accent-color-logseq "رنگ کلاسیک Felicitas Sapientiae"
  :settings.general/accent-color-none-desc "لغو رنگ لهجه. این در حال حاضر در مرحلة بتا است و عمدتاً برای سازگاری با تم‌های سفارشی استفاده می‌شود."
  :settings.general/changelog "سیاهه تغییرات"
  :settings.general/check-for-updates "بررسی به‌روزرسانی‌ها"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "روشن"
  :settings.general/theme-system "سیستم"
 
- :settings.sync-server/clear-success "URL سرور همگام‌سازی پاک شد. از Asymmetric AI Sync رسمی استفاده می‌شود."
+ :settings.sync-server/clear-success "URL سرور همگام‌سازی پاک شد. از Felicitas Sapientiae Sync رسمی استفاده می‌شود."
  :settings.sync-server/reset "بازنشانی به پیش‌فرض"
  :settings.sync-server/save-success "URL سرور همگام‌سازی ذخیره شد."
  :settings.sync-server/url "URL سرور همگام‌سازی"
- :settings.sync-server/url-desc "برای همگام‌سازی خودمیزبان، یک URL سفارشی HTTPS برای سرور همگام‌سازی تنظیم کنید. توکن‌های احراز هویت Asymmetric AI شما به این سرور ارسال می‌شوند، پس فقط از URL قابل اعتماد استفاده کنید. برای استفاده از Asymmetric AI Sync رسمی، این بخش را خالی بگذارید."
+ :settings.sync-server/url-desc "برای همگام‌سازی خودمیزبان، یک URL سفارشی HTTPS برای سرور همگام‌سازی تنظیم کنید. توکن‌های احراز هویت Felicitas Sapientiae شما به این سرور ارسال می‌شوند، پس فقط از URL قابل اعتماد استفاده کنید. برای استفاده از Felicitas Sapientiae Sync رسمی، این بخش را خالی بگذارید."
  :settings.sync-server/url-invalid-error "URL باید با https:// یا http:// شروع شود"
 
  :shell/input-command-title "ورود دستور"
@@ -1692,7 +1692,7 @@
  :sync/uploading "در حال بارگذاری..."
  :sync/user-doesnt-exist-yet "کاربر هنوز وجود ندارد"
 
- :theme/logseq-default "تم پیش‌فرض Asymmetric AI"
+ :theme/logseq-default "تم پیش‌فرض Felicitas Sapientiae"
  :theme/switch-to "به طرح زمینه {1} بروید"
 
  :ui/all-done "همه‌چیز انجام شد"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "مهرزمان‌های YouTube هنوز بر روی موبایل در دسترس نیستند."
 
  :zotero/attachments "پیوست‌ها"
- :zotero/imported-file-warning "این یک فایل واردشده از Zotero است، برای باز کردن فایل در Asymmetric AI، پوشه دادهٔ Zotero را تنظیم کنید."
- :zotero/linked-file-warning "این یک فایل پیوندی Zotero است، برای باز کردن فایل در Asymmetric AI، پوشه پایهٔ پیوست‌های پیوندی Zotero را تنظیم کنید."
+ :zotero/imported-file-warning "این یک فایل واردشده از Zotero است، برای باز کردن فایل در Felicitas Sapientiae، پوشه دادهٔ Zotero را تنظیم کنید."
+ :zotero/linked-file-warning "این یک فایل پیوندی Zotero است، برای باز کردن فایل در Felicitas Sapientiae، پوشه پایهٔ پیوست‌های پیوندی Zotero را تنظیم کنید."
  :zotero/notes "یادداشت‌ها"
 }

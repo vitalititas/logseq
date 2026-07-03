@@ -138,7 +138,7 @@
              :on-click #(do (js/LSPluginCore.selectTheme (bean/->js opt))
                             (shui/dialog-close!))}
             [:div.flex.items-center.text-xs
-             [:div.opacity-60 (str (or (:name plg) "Asymmetric AI") " •")]
+             [:div.opacity-60 (str (or (:name plg) "Felicitas Sapientiae") " •")]
              [:div.name.ml-1 (:name opt)]]
             (when (or group-first? current-selected?)
               [:div.flex.items-center

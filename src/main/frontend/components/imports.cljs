@@ -1,5 +1,5 @@
 (ns frontend.components.imports
-  "Import data into Asymmetric AI."
+  "Import data into Felicitas Sapientiae."
   (:require ["path" :as node-path]
             [cljs-time.core :as t]
             [cljs.pprint :as pprint]
@@ -9,6 +9,7 @@
             [frontend.components.onboarding.setups :as setups]
             [frontend.components.repo :as repo]
             [frontend.components.svg :as svg]
+            [frontend.ui :as ui]
             [frontend.config :as config]
             [frontend.context.i18n :refer [t t-en]]
             [frontend.db :as db]
@@ -488,7 +489,7 @@
             [:h2 (t :onboarding.import/desc)]])
          [:section.d.md:flex.flex-col
           [:label.action-input.flex.items-center.mx-2.my-2
-           [:span.as-flex-center [:i (svg/logo 28)]]
+           [:span.as-flex-center (ui/icon "file-import" {:size 28})]
            [:span.flex.flex-col
               [[:strong "SQLite"]
              [:small (t :onboarding.import/sqlite-desc)]]]
@@ -500,7 +501,7 @@
                            #(set-graph-name-dialog e {:sqlite? true})))}]]
 
           [:label.action-input.flex.items-center.mx-2.my-2
-           [:span.as-flex-center [:i (svg/logo 28)]]
+           [:span.as-flex-center (ui/icon "file-import" {:size 28})]
            [:span.flex.flex-col
               [[:strong (t :import/sqlite-and-assets-title)]
                [:small (t :import/sqlite-and-assets-desc)]]]
@@ -514,7 +515,7 @@
 
           (when-not (util/mobile?)
             [:label.action-input.flex.items-center.mx-2.my-2
-             [:span.as-flex-center [:i (svg/logo 28)]]
+             [:span.as-flex-center (ui/icon "file-import" {:size 28})]
              [:span.flex.flex-col
               [[:strong (t :import/file-to-db-title)]
                [:small (t :import/file-to-db-desc)]]]
@@ -529,7 +530,7 @@
                                     1000)}]])
 
           [:label.action-input.flex.items-center.mx-2.my-2
-           [:span.as-flex-center [:i (svg/logo 28)]]
+           [:span.as-flex-center (ui/icon "file-import" {:size 28})]
            [:span.flex.flex-col
               [[:strong (t :import/debug-transit-title)]
                [:small (t :import/debug-transit-desc)]]]
@@ -541,7 +542,7 @@
                            #(set-graph-name-dialog e {:debug-transit? true})))}]]
 
           [:label.action-input.flex.items-center.mx-2.my-2
-           [:span.as-flex-center [:i (svg/logo 28)]]
+           [:span.as-flex-center (ui/icon "file-import" {:size 28})]
            [:span.flex.flex-col
               [[:strong (t :import/db-edn-title)]
                [:small (t :import/db-edn-desc)]]]

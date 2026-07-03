@@ -1,11 +1,11 @@
 {
  :account/authentication "Autentisering"
- :account/benefits-desc "Med en Asymmetric AI-konto kan du få tilgang til skybaserte tjenester som Asymmetric AI Sync og alfa-/betafunksjoner."
+ :account/benefits-desc "Med en Felicitas Sapientiae-konto kan du få tilgang til skybaserte tjenester som Felicitas Sapientiae Sync og alfa-/betafunksjoner."
  :account/billing "Fakturering"
  :account/billing-expired-on-label "Pro-abonnement utløp: {1}"
  :account/billing-expires-on-label "Pro-abonnement utløper: {1}"
  :account/billing-next-date-label "Neste faktureringsdato: {1}"
- :account/core-features "Tilgang til kjernefunksjonene i Asymmetric AI"
+ :account/core-features "Tilgang til kjernefunksjonene i Felicitas Sapientiae"
  :account/current-plan "Gjeldende abonnement"
  :account/delete-account "Slett konto"
  :account/discover-sync-desc "Oppdag kraften i {1}"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "Synkroniser vedlegg opptil 100 MB per fil"
  :account/synced-status "Synkronisert"
  :account/unlimited-unsynced-graphs "Ubegrenset antall usynkroniserte grafer"
- :account/upcoming-cloud-features "Kommende skybaserte funksjoner, inkludert Asymmetric AI Publish"
+ :account/upcoming-cloud-features "Kommende skybaserte funksjoner, inkludert Felicitas Sapientiae Publish"
  :account/upgrade-plan "Oppgrader abonnement"
  :account/username "Brukernavn"
 
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "Last opp filtyper som bilde, PDF, DOCX, osv."
  :editor.slash/yesterday-desc "Sett inn gårsdagens dato"
 
- :electron/about "Om Asymmetric AI"
+ :electron/about "Om Felicitas Sapientiae"
  :electron/add-to-dictionary "Legg til i ordbok"
  :electron/block-not-exist "Kunne ikke åpne lenken. Blokk-ID `{1}` finnes ikke i grafen."
  :electron/cancel "Avbryt"
@@ -669,7 +669,7 @@
  :graph/create-new "Opprett en ny graf"
  :graph/creating "Graf opprettes"
  :graph/delete-local-action "Slett lokal graf"
- :graph/delete-local-confirm-desc "Er du sikker på at du vil slette grafen \"{1}\" permanent fra Asymmetric AI?"
+ :graph/delete-local-confirm-desc "Er du sikker på at du vil slette grafen \"{1}\" permanent fra Felicitas Sapientiae?"
  :graph/delete-server-action "Slett fra server"
  :graph/delete-server-confirm-desc "Er du sikker på at du vil slette grafen \"{1}\" permanent fra serveren vår?"
  :graph/delete-warning "⚠️ Vær oppmerksom på at vi ikke kan gjenopprette denne grafen etter sletting. Sørg for at du har en sikkerhetskopi før du sletter den."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "Graf fjernet fra synkronisering"
  :graph/shared-graphs "Delte grafer"
  :graph/updated-switching "Graf oppdatert. Bytter..."
- :graph/use-sync-beta "Bruk Asymmetric AI Sync (betatest)"
- :graph/use-sync-label "Bruk Asymmetric AI Sync?"
+ :graph/use-sync-beta "Bruk Felicitas Sapientiae Sync (betatest)"
+ :graph/use-sync-label "Bruk Felicitas Sapientiae Sync?"
 
  :graph.diagnostics/checksum-failed-error "Kunne ikke beregne sjekksumdiagnostikk for grafen."
  :graph.diagnostics/checksum-recomputed-success "Sjekksum beregnet på nytt. Ny beregning: {1}, lokal: {2}, ekstern: {3}. {4}.edn ble lastet ned med {5} blokker og sjekksumattributter {6}."
@@ -743,10 +743,10 @@
  :header/quit-highlight-recent-blocks "Avslutt markering av nylige blokker"
  :header/toggle-left-sidebar "Slå av/på venstre sidepanel"
 
- :help/about "Om Asymmetric AI"
+ :help/about "Om Felicitas Sapientiae"
  :help/about-title "Om"
  :help/ask-community "Spør fellesskapet"
- :help/awesome-logseq "Awesome Asymmetric AI"
+ :help/awesome-logseq "Awesome Felicitas Sapientiae"
  :help/block-reference "Blokkreferanse"
  :help/blog "Blogg"
  :help/bug "Rapporter feil på GitHub"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "Grafnavn kan ikke være tomt."
  :import/extract-inline-code-snippets "Ekstraher innebygde kodebiter som underblokker"
  :import/file-finished "Import fullført!"
- :import/file-to-db-desc "Importer en filbasert Asymmetric AI-grafmappe til en ny DB-graf"
+ :import/file-to-db-desc "Importer en filbasert Felicitas Sapientiae-grafmappe til en ny DB-graf"
  :import/file-to-db-title "Fil til DB-graf"
  :import/graph-name-conflict "En graf med dette navnet finnes allerede. Velg et annet navn!"
  :import/graph-name-placeholder "Grafnavn"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} ugyldige blokker oppdaget. Interaksjon fungerer kanskje ikke. Detaljer i JavaScript-konsollen."
  :import/invalid-edn-file "Den oppgitte EDN-filen er ugyldig. Korriger og prøv igjen."
  :import/loading "Importerer"
- :import/logseq-config-missing "Importfeil: Asymmetric AI-graf inneholder ikke 'logseq/config.edn'-fil."
+ :import/logseq-config-missing "Importfeil: Felicitas Sapientiae-graf inneholder ikke 'logseq/config.edn'-fil."
  :import/new-graph-name "Nytt grafnavn"
  :import/notes "Importer notater"
  :import/org-files-imported "{1} Org-filer importert som Markdown. Org-støtte legges til senere."
@@ -914,8 +914,8 @@
  :library/add-pages "Legg til sider"
  :library/title "Bibliotek"
 
- :mobile/camera-access-denied "Kameratilgang nektet. Aktiver den i Innstillinger > Asymmetric AI."
- :mobile/microphone-access-denied "Mikrofontilgang nektet. Aktiver den i Innstillinger > Asymmetric AI."
+ :mobile/camera-access-denied "Kameratilgang nektet. Aktiver den i Innstillinger > Felicitas Sapientiae."
+ :mobile/microphone-access-denied "Mikrofontilgang nektet. Aktiver den i Innstillinger > Felicitas Sapientiae."
 
  :mobile.header/actions "Handlinger"
  :mobile.header/create-graph "Opprett graf"
@@ -1005,7 +1005,7 @@
  :onboarding.import-option/title "Dataimport"
 
  :onboarding.setup/desc "Arbeidsområde for din kunnskap"
- :onboarding.setup/title (fn [] ["Velkommen til " [:strong "Asymmetric AI!"]])
+ :onboarding.setup/title (fn [] ["Velkommen til " [:strong "Felicitas Sapientiae!"]])
 
  :page/add-to-favorites "Legg til i Favoritter"
  :page/added-tag-to-node "La til taggen \"{1}\" til \"{2}\""
@@ -1024,7 +1024,7 @@
  :page/go-back-home "Gå tilbake til startsiden"
  :page/hide-properties "Skjul egenskaper"
  :page/local-storage "lokal lagring"
- :page/logseq-is-having-a-problem "Asymmetric AI har et problem"
+ :page/logseq-is-having-a-problem "Felicitas Sapientiae har et problem"
  :page/make-private "Gjør den privat"
  :page/make-public "Gjør den offentlig for publisering"
  :page/moved-to-recycle "Noden er flyttet til papirkurven"
@@ -1154,7 +1154,7 @@
  :plugin/no-settings-schema "Ingen innstillingsskjema!"
  :plugin/not-installed "Ikke installert"
  :plugin/open-logs "Vis logger"
- :plugin/open-logseq-dir "Åpne Asymmetric AI-mappe"
+ :plugin/open-logseq-dir "Åpne Felicitas Sapientiae-mappe"
  :plugin/open-package "Åpne pakke"
  :plugin/open-preferences "Åpne innstillinger"
  :plugin/open-settings "Åpne innstillinger"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "Oppfrisk lister"
  :plugin/reload "Last på nytt"
  :plugin/remote-error "Ekstern feil: {1}"
- :plugin/report-modal-desc "Hvis et programtillegg ikke er tilgjengelig eller du tror det inneholder skadelig kode, send en e-post til {1}. Nevn navn på programtillegget og URL-en til GitHub-depotet. Asymmetric AI-teamet svarer vanligvis innen en arbeidsdag."
+ :plugin/report-modal-desc "Hvis et programtillegg ikke er tilgjengelig eller du tror det inneholder skadelig kode, send en e-post til {1}. Nevn navn på programtillegget og URL-en til GitHub-depotet. Felicitas Sapientiae-teamet svarer vanligvis innen en arbeidsdag."
  :plugin/report-security "Rapporter sikkerhetsproblem"
  :plugin/restart "Start App på nytt"
  :plugin/search-plugin "Søk etter utvidelse"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "URL-adresser støtter både GitHub-depotier og lokale utviklingsservere. (For eksempler: {1}, {2})"
  :plugin.install-from-web-url/theme-label "tema"
 
- :plugin.package-config/detach-desc "Å fjerne den kobler bare pluginen fra Asymmetric AI og lar kildemappen være urørt."
+ :plugin.package-config/detach-desc "Å fjerne den kobler bare pluginen fra Felicitas Sapientiae og lar kildemappen være urørt."
  :plugin.package-config/parse-error "Kunne ikke tolke konfigurasjonen for plugin-pakken."
  :plugin.package-config/remove-error "Kunne ikke fjerne den ødelagte pluginen."
  :plugin.package-config/remove-external-success "Den ødelagte pluginen ble fjernet fra pluginlisten."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "Avslutt kodemodus"
  :plugin.settings/title "Utvidelsesinnstillinger"
 
- :plugin.themes/default-desc "Asymmetric AI-standardtema ({1})."
+ :plugin.themes/default-desc "Felicitas Sapientiae-standardtema ({1})."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "Temaer ({1})"
  :plugin.themes/light-and-dark "lyse & mørke temaer"
@@ -1562,8 +1562,8 @@
  :settings.advanced/auto-chmod-desc "Still inn filtillatelser automatisk"
  :settings.advanced/auto-updater "Automatiske oppdateringer"
  :settings.advanced/developer-mode "Utviklermodus"
- :settings.advanced/developer-mode-desc "Utviklermodus hjelper bidragsytere og tilleggsutviklere med å teste sine integrasjoner mot Asymmetric AI mer effektivt."
- :settings.advanced/disable-sentry "Send bruksdata og diagnostikk til Asymmetric AI"
+ :settings.advanced/developer-mode-desc "Utviklermodus hjelper bidragsytere og tilleggsutviklere med å teste sine integrasjoner mot Felicitas Sapientiae mer effektivt."
+ :settings.advanced/disable-sentry "Send bruksdata og diagnostikk til Felicitas Sapientiae"
  :settings.advanced/disable-sentry-desc "Deaktiver krasjrapportering"
  :settings.advanced/network-proxy "Nettverksproxy"
 
@@ -1597,7 +1597,7 @@
 
  :settings.general/accent-color "Aksentfarge"
  :settings.general/accent-color-alert "Fargevarsel"
- :settings.general/accent-color-logseq "Klassisk Asymmetric AI-farge"
+ :settings.general/accent-color-logseq "Klassisk Felicitas Sapientiae-farge"
  :settings.general/accent-color-none-desc "Avbryt accentfarge. Dette er for øyeblikket i betastadium og brukes hovedsakelig for kompatibilitet med egendefinerte temaer."
  :settings.general/changelog "Endringslogg"
  :settings.general/check-for-updates "Sjekk etter oppdateringer"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "Lys"
  :settings.general/theme-system "System"
 
- :settings.sync-server/clear-success "URL-en til synkroniseringsserveren ble fjernet. Offisiell Asymmetric AI Sync brukes."
+ :settings.sync-server/clear-success "URL-en til synkroniseringsserveren ble fjernet. Offisiell Felicitas Sapientiae Sync brukes."
  :settings.sync-server/reset "Tilbakestill til standard"
  :settings.sync-server/save-success "URL-en til synkroniseringsserveren ble lagret."
  :settings.sync-server/url "URL til synkroniseringsserver"
- :settings.sync-server/url-desc "Angi en egendefinert HTTPS-URL for en selvhostet synkroniseringsserver. Asymmetric AI-autentiseringstokenene dine sendes til denne serveren, så bruk bare en pålitelig URL. La feltet være tomt for å bruke offisiell Asymmetric AI Sync."
+ :settings.sync-server/url-desc "Angi en egendefinert HTTPS-URL for en selvhostet synkroniseringsserver. Felicitas Sapientiae-autentiseringstokenene dine sendes til denne serveren, så bruk bare en pålitelig URL. La feltet være tomt for å bruke offisiell Felicitas Sapientiae Sync."
  :settings.sync-server/url-invalid-error "URL må starte med https:// eller http://"
 
  :shell/input-command-title "Skriv inn kommando"
@@ -1692,7 +1692,7 @@
  :sync/uploading "Laster opp..."
  :sync/user-doesnt-exist-yet "Bruker finnes ikke ennå"
 
- :theme/logseq-default "Asymmetric AI-standardtema"
+ :theme/logseq-default "Felicitas Sapientiae-standardtema"
  :theme/switch-to "Bytt til {1}-tema"
 
  :ui/all-done "Alt ferdig"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "YouTube-tidsstempel er ennå ikke tilgjengelige på mobil."
 
  :zotero/attachments "Vedlegg"
- :zotero/imported-file-warning "Dette er en importert Zotero-fil, angi Zotero-datamappe for å åpne filen i Asymmetric AI."
- :zotero/linked-file-warning "Dette er en lenket Zotero-fil, angi basemappe for Zotero-lenkede vedlegg for å åpne filen i Asymmetric AI."
+ :zotero/imported-file-warning "Dette er en importert Zotero-fil, angi Zotero-datamappe for å åpne filen i Felicitas Sapientiae."
+ :zotero/linked-file-warning "Dette er en lenket Zotero-fil, angi basemappe for Zotero-lenkede vedlegg for å åpne filen i Felicitas Sapientiae."
  :zotero/notes "Notater"
 }

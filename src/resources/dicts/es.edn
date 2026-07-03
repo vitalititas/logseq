@@ -1,11 +1,11 @@
 {
  :account/authentication "Autenticación"
- :account/benefits-desc "Con una cuenta de Asymmetric AI, puedes acceder a servicios en la nube como Asymmetric AI Sync y funciones alfa/beta."
+ :account/benefits-desc "Con una cuenta de Felicitas Sapientiae, puedes acceder a servicios en la nube como Felicitas Sapientiae Sync y funciones alfa/beta."
  :account/billing "Facturación"
  :account/billing-expired-on-label "El plan Pro expiró el: {1}"
  :account/billing-expires-on-label "El plan Pro expira el: {1}"
  :account/billing-next-date-label "Próxima fecha de facturación: {1}"
- :account/core-features "Acceso a las funciones principales de Asymmetric AI"
+ :account/core-features "Acceso a las funciones principales de Felicitas Sapientiae"
  :account/current-plan "Plan actual"
  :account/delete-account "Eliminar cuenta"
  :account/discover-sync-desc "Descubre el poder de {1}"
@@ -29,7 +29,7 @@
  :account/sync-assets-limit "Sincronizar archivos adjuntos de hasta 100MB por archivo"
  :account/synced-status "Sincronizado"
  :account/unlimited-unsynced-graphs "Grafos no sincronizados ilimitados"
- :account/upcoming-cloud-features "Próximas funciones en la nube, incluyendo Asymmetric AI Publish"
+ :account/upcoming-cloud-features "Próximas funciones en la nube, incluyendo Felicitas Sapientiae Publish"
  :account/upgrade-plan "Mejorar plan"
  :account/username "Nombre de usuario"
 
@@ -130,7 +130,7 @@
  :bug-report.inspector/tip "¿Hay algo mal? No hay problema, da clic para regresar al paso anterior."
  :bug-report.inspector/title "Inspector de datos del portapapeles"
 
- :bug-report.issue/action-desc "¡Ayuda a mejorar Asymmetric AI!"
+ :bug-report.issue/action-desc "¡Ayuda a mejorar Felicitas Sapientiae!"
  :bug-report.issue/action-title "Enviar un reporte de problemas"
  :bug-report.issue/desc "Si no hay herramientas disponibles para recopilar información adicional, reporta el error directamente."
  :bug-report.issue/report-link "Reportar problema"
@@ -515,7 +515,7 @@
  :editor.slash/upload-asset-desc "Cargar tipos de archivo como imagen, PDF, DOCX, etc."
  :editor.slash/yesterday-desc "Insertar la fecha de ayer"
 
- :electron/about "Acerca de Asymmetric AI"
+ :electron/about "Acerca de Felicitas Sapientiae"
  :electron/add-to-dictionary "Añadir al diccionario"
  :electron/block-not-exist "No se pudo abrir el enlace. El identificador de bloque `{1}` no existe en el grafo."
  :electron/cancel "Cancelar"
@@ -669,7 +669,7 @@
  :graph/create-new "Crear un nuevo grafo"
  :graph/creating "Creando grafo"
  :graph/delete-local-action "Eliminar grafo local"
- :graph/delete-local-confirm-desc "¿Está seguro de que desea eliminar permanentemente el gráfo \"{1}\" de Asymmetric AI?"
+ :graph/delete-local-confirm-desc "¿Está seguro de que desea eliminar permanentemente el gráfo \"{1}\" de Felicitas Sapientiae?"
  :graph/delete-server-action "Eliminar del servidor"
  :graph/delete-server-confirm-desc "¿Está seguro de que desea eliminar permanentemente el gráfo \"{1}\" de nuestro servidor?"
  :graph/delete-warning "⚠️ Tenga en cuenta que no podemos recuperar este gráfo después de eliminarlo. Asegúrate de tener copias de seguridad antes de eliminarlo."
@@ -693,8 +693,8 @@
  :graph/removed-from-sync "Grafo eliminado de la sincronización"
  :graph/shared-graphs "Grafos compartidos"
  :graph/updated-switching "Grafo actualizado. Cambiando..."
- :graph/use-sync-beta "Usar Asymmetric AI Sync (beta)"
- :graph/use-sync-label "Usar Asymmetric AI Sync?"
+ :graph/use-sync-beta "Usar Felicitas Sapientiae Sync (beta)"
+ :graph/use-sync-label "Usar Felicitas Sapientiae Sync?"
 
  :graph.diagnostics/checksum-failed-error "No se pudieron calcular los diagnósticos de suma de comprobación del grafo."
  :graph.diagnostics/checksum-recomputed-success "Suma de comprobación recalculada. Recalculada: {1}, local: {2}, remota: {3}. Se descargó {4}.edn con {5} bloques y atributos de suma de comprobación {6}."
@@ -743,12 +743,12 @@
  :header/quit-highlight-recent-blocks "Dejar de resaltar bloques recientes"
  :header/toggle-left-sidebar "Alternar barra lateral izquierda"
 
- :help/about "Acerca de Asymmetric AI"
+ :help/about "Acerca de Felicitas Sapientiae"
  :help/about-title "Acerca de"
  :help/ask-community "Preguntar a la comunidad"
- :help/awesome-logseq "Increíble Asymmetric AI"
+ :help/awesome-logseq "Increíble Felicitas Sapientiae"
  :help/block-reference "Referencia de bloque"
- :help/blog "Blog de Asymmetric AI"
+ :help/blog "Blog de Felicitas Sapientiae"
  :help/bug "Reportar un problema"
  :help/changelog "Registro de cambios"
  :help/community-title "Comunidad"
@@ -829,7 +829,7 @@
  :import/empty-graph-name "El nombre del grafo no puede estar vacío."
  :import/extract-inline-code-snippets "Extraer fragmentos de código en línea como sub-bloques"
  :import/file-finished "¡Importación completada!"
- :import/file-to-db-desc "Importar una carpeta de grafo Asymmetric AI basado en archivos a un nuevo grafo DB"
+ :import/file-to-db-desc "Importar una carpeta de grafo Felicitas Sapientiae basado en archivos a un nuevo grafo DB"
  :import/file-to-db-title "Archivo a grafo DB"
  :import/graph-name-conflict "Ya existe un grafo con este nombre. ¡Elija otro nombre!"
  :import/graph-name-placeholder "Nombre del grafo"
@@ -840,7 +840,7 @@
  :import/invalid-blocks-detected "{1} bloques inválidos detectados durante la importación. La interacción podría fallar. Detalles en la consola de JavaScript."
  :import/invalid-edn-file "El archivo EDN proporcionado es inválido. Corrija e intente de nuevo."
  :import/loading "Importando"
- :import/logseq-config-missing "Error de importación: el grafo Asymmetric AI no tiene archivo 'logseq/config.edn'."
+ :import/logseq-config-missing "Error de importación: el grafo Felicitas Sapientiae no tiene archivo 'logseq/config.edn'."
  :import/new-graph-name "Nuevo nombre del grafo"
  :import/notes "Importar notas existentes"
  :import/org-files-imported "{1} archivos Org importados como Markdown. El soporte para archivos Org se añadirá más adelante."
@@ -914,8 +914,8 @@
  :library/add-pages "Agregar páginas"
  :library/title "Biblioteca"
 
- :mobile/camera-access-denied "El acceso a la cámara está denegado. Habilítalo en Configuración > Asymmetric AI."
- :mobile/microphone-access-denied "El acceso al micrófono está denegado. Habilítalo en Configuración > Asymmetric AI."
+ :mobile/camera-access-denied "El acceso a la cámara está denegado. Habilítalo en Configuración > Felicitas Sapientiae."
+ :mobile/microphone-access-denied "El acceso al micrófono está denegado. Habilítalo en Configuración > Felicitas Sapientiae."
 
  :mobile.header/actions "Acciones"
  :mobile.header/create-graph "Crear grafo"
@@ -997,15 +997,15 @@
  :notification/clear-all "Limpiar todo"
  :notification/copied "Copiado"
 
- :onboarding.import/desc "Si están en formato EDN o Markdown Asymmetric AI puede trabajar con ellos."
+ :onboarding.import/desc "Si están en formato EDN o Markdown Felicitas Sapientiae puede trabajar con ellos."
  :onboarding.import/sqlite-desc "Importar desde base de datos SQLite"
  :onboarding.import/title "¿Tienes notas que quieras importar?"
 
  :onboarding.import-option/desc "También puedes hacer esto después en la aplicación."
  :onboarding.import-option/title "Importar notas existentes"
 
- :onboarding.setup/desc "Primero tienes que escoger una carpeta donde Asymmetric AI va a guardar tus pensamientos, ideas y notas."
- :onboarding.setup/title (fn [] ["¡Bienvenido a " [:strong "Asymmetric AI!"]])
+ :onboarding.setup/desc "Primero tienes que escoger una carpeta donde Felicitas Sapientiae va a guardar tus pensamientos, ideas y notas."
+ :onboarding.setup/title (fn [] ["¡Bienvenido a " [:strong "Felicitas Sapientiae!"]])
 
  :page/add-to-favorites "Añadir a Favoritos"
  :page/added-tag-to-node "Se agregó la etiqueta \"{1}\" a \"{2}\""
@@ -1024,7 +1024,7 @@
  :page/go-back-home "Volver al inicio"
  :page/hide-properties "Ocultar propiedades"
  :page/local-storage "almacenamiento local"
- :page/logseq-is-having-a-problem "Asymmetric AI está teniendo un problema. Para intentar volver a un estado de trabajo, intenta los siguientes pasos seguros en orden:"
+ :page/logseq-is-having-a-problem "Felicitas Sapientiae está teniendo un problema. Para intentar volver a un estado de trabajo, intenta los siguientes pasos seguros en orden:"
  :page/make-private "Hacer privada"
  :page/make-public "Hacer pública al publicar"
  :page/moved-to-recycle "El nodo ha sido movido a la papelera"
@@ -1165,7 +1165,7 @@
  :plugin/refresh-lists "Actualizar listas"
  :plugin/reload "Recargar"
  :plugin/remote-error "Error remoto: {1}"
- :plugin/report-modal-desc "Si algún plugin no está disponible o crees que contiene código malicioso, envía un correo a {1}. Menciona el nombre del plugin y la URL de su repositorio de GitHub. El equipo de Asymmetric AI generalmente responde dentro de un día hábil."
+ :plugin/report-modal-desc "Si algún plugin no está disponible o crees que contiene código malicioso, envía un correo a {1}. Menciona el nombre del plugin y la URL de su repositorio de GitHub. El equipo de Felicitas Sapientiae generalmente responde dentro de un día hábil."
  :plugin/report-security "Reportar problema de seguridad"
  :plugin/restart "Reiniciar la aplicación"
  :plugin/search-plugin "Buscar extensiones"
@@ -1197,7 +1197,7 @@
  :plugin.install-from-web-url/supports-note "Las URL admiten tanto repositorios de GitHub como servidores de desarrollo local. (Por ejemplo: {1}, {2})"
  :plugin.install-from-web-url/theme-label "tema"
 
- :plugin.package-config/detach-desc "Al quitarlo solo se desvincula el plugin de Asymmetric AI y se mantiene intacta la carpeta de origen."
+ :plugin.package-config/detach-desc "Al quitarlo solo se desvincula el plugin de Felicitas Sapientiae y se mantiene intacta la carpeta de origen."
  :plugin.package-config/parse-error "No se pudo analizar la configuración del paquete del plugin."
  :plugin.package-config/remove-error "No se pudo eliminar el plugin dañado."
  :plugin.package-config/remove-external-success "Se eliminó el plugin dañado de la lista de plugins."
@@ -1212,7 +1212,7 @@
  :plugin.settings/exit-code-mode "Salir del modo código"
  :plugin.settings/title "Configuración de extensiones"
 
- :plugin.themes/default-desc "Tema predeterminado de Asymmetric AI ({1})."
+ :plugin.themes/default-desc "Tema predeterminado de Felicitas Sapientiae ({1})."
  :plugin.themes/default-name "Default {1} theme"
  :plugin.themes/group "Temas ({1})"
  :plugin.themes/light-and-dark "temas claros & oscuros"
@@ -1562,9 +1562,9 @@
  :settings.advanced/auto-chmod-desc "Desactivar el permitir la edición de múltiples usuarios con permisos otorgados por la membresía del grupo."
  :settings.advanced/auto-updater "Auto actualizador"
  :settings.advanced/developer-mode "Modo desarrollador"
- :settings.advanced/developer-mode-desc "El modo desarrollador permite a los colaboradores y desarrolladores de extensiones probar sus integraciones con Asymmetric AI más eficientemente."
- :settings.advanced/disable-sentry "Enviar datos de uso y diagnósticos a Asymmetric AI"
- :settings.advanced/disable-sentry-desc " Asymmetric AI nunca va a recolectar tu base de datos de grafos local o vender tus datos."
+ :settings.advanced/developer-mode-desc "El modo desarrollador permite a los colaboradores y desarrolladores de extensiones probar sus integraciones con Felicitas Sapientiae más eficientemente."
+ :settings.advanced/disable-sentry "Enviar datos de uso y diagnósticos a Felicitas Sapientiae"
+ :settings.advanced/disable-sentry-desc " Felicitas Sapientiae nunca va a recolectar tu base de datos de grafos local o vender tus datos."
  :settings.advanced/network-proxy "Proxy de red"
 
  :settings.ai/enable-mcp-server "Habilitar servidor MCP"
@@ -1591,13 +1591,13 @@
  :settings.features/home-default-page "Establecer página de inicio"
  :settings.features/home-default-page-update-success "Página de inicio actualizada"
  :settings.features/journals-enable-success "Diarios habilitados"
- :settings.features/login-prompt "Para acceder a nuevas características antes que nadie debes ser un patrocinador de Asymmetric AI en Open Collective y después iniciar sesión."
+ :settings.features/login-prompt "Para acceder a nuevas características antes que nadie debes ser un patrocinador de Felicitas Sapientiae en Open Collective y después iniciar sesión."
  :settings.features/page-not-found "La página \"{1}\" aún no existe. Primero cree esa página y luego vuelva a intentarlo."
  :settings.features/plugin-system "Habilitar extensiones"
 
  :settings.general/accent-color "Color de acento"
  :settings.general/accent-color-alert "Alerta de color de acento"
- :settings.general/accent-color-logseq "Color clásico de Asymmetric AI"
+ :settings.general/accent-color-logseq "Color clásico de Felicitas Sapientiae"
  :settings.general/accent-color-none-desc "Cancelar color de acento. Esta función está actualmente en fase beta y se usa principalmente para la compatibilidad con temas personalizados."
  :settings.general/changelog "¿Qué hay de nuevo?"
  :settings.general/check-for-updates "Comprobar actualizaciones"
@@ -1623,11 +1623,11 @@
  :settings.general/theme-light "claro"
  :settings.general/theme-system "sistema"
 
- :settings.sync-server/clear-success "Se borró la URL del servidor de sincronización. Se usará Asymmetric AI Sync oficial."
+ :settings.sync-server/clear-success "Se borró la URL del servidor de sincronización. Se usará Felicitas Sapientiae Sync oficial."
  :settings.sync-server/reset "Restablecer a predeterminado"
  :settings.sync-server/save-success "Se guardó la URL del servidor de sincronización."
  :settings.sync-server/url "URL del servidor de sincronización"
- :settings.sync-server/url-desc "Configura una URL HTTPS personalizada para un servidor de sincronización autoalojado. Tus tokens de autenticación de Asymmetric AI se enviarán a este servidor, así que usa solo una URL de confianza. Déjalo vacío para usar Asymmetric AI Sync oficial."
+ :settings.sync-server/url-desc "Configura una URL HTTPS personalizada para un servidor de sincronización autoalojado. Tus tokens de autenticación de Felicitas Sapientiae se enviarán a este servidor, así que usa solo una URL de confianza. Déjalo vacío para usar Felicitas Sapientiae Sync oficial."
  :settings.sync-server/url-invalid-error "La URL debe empezar por https:// o http://"
 
  :shell/input-command-title "Introducir comando"
@@ -1692,7 +1692,7 @@
  :sync/uploading "Subiendo..."
  :sync/user-doesnt-exist-yet "El usuario aún no existe"
 
- :theme/logseq-default "Tema predeterminado de Asymmetric AI"
+ :theme/logseq-default "Tema predeterminado de Felicitas Sapientiae"
  :theme/switch-to "Cambiar al tema {1}"
 
  :ui/all-done "¡Todo hecho!"
@@ -1835,7 +1835,7 @@
  :youtube/timestamps-not-available-mobile "Las marcas de tiempo de YouTube no están disponibles en móvil aún."
 
  :zotero/attachments "Archivos adjuntos"
- :zotero/imported-file-warning "Este es un archivo importado de Zotero, configure directorio de datos de Zotero para abrir el archivo en Asymmetric AI."
- :zotero/linked-file-warning "Este es un archivo vinculado de Zotero, configure directorio base de archivos adjuntos vinculados de Zotero para abrir el archivo en Asymmetric AI."
+ :zotero/imported-file-warning "Este es un archivo importado de Zotero, configure directorio de datos de Zotero para abrir el archivo en Felicitas Sapientiae."
+ :zotero/linked-file-warning "Este es un archivo vinculado de Zotero, configure directorio base de archivos adjuntos vinculados de Zotero para abrir el archivo en Felicitas Sapientiae."
  :zotero/notes "Notas"
 }

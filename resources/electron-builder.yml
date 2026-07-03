@@ -46,7 +46,7 @@ nsis:
   uninstallerIcon: icons/logseq.ico
 
 linux:
-  artifactName: Asymmetric-AI-linux-${arch}-${version}.${ext}
+  artifactName: Felicitas-Sapientiae-linux-${arch}-${version}.${ext}
   icon: icons/logseq.png
   category: Office
   target:

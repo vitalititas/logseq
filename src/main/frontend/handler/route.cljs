@@ -132,7 +132,7 @@
   [name path-params]
   (case name
     :home
-    "Asymmetric AI"
+    "Felicitas Sapientiae"
     :graphs
     (t :mobile.tab/graphs)
     :graph
@@ -168,7 +168,7 @@
                                block-name)))]
       (or block-name'
           block-title
-          "Asymmetric AI"))
+          "Felicitas Sapientiae"))
     :tag
     (str "#"  (:name path-params))
     :diff
@@ -177,7 +177,7 @@
     (t :nav/settings)
     :import
     (t :import/title)
-    "Asymmetric AI"))
+    "Felicitas Sapientiae"))
 
 (defn update-page-title!
   [route]
